@@ -2,7 +2,7 @@ Detecção de anomalias acadêmicas
 
 Implementado um autoencoder 4 → 2 → 4. As entradas originais são G1, G2, absences e studytime. A camada reduzida usa tanh para representar relações não lineares com valores positivos e negativos. A saída é linear para reconstruir valores padronizados. A perda é o erro quadrático médio de reconstrução.
 
-Treinamento por retropropagação e descida do gradiente estocástica, lote 1, taxa 0,005 e semente 42. Foram executadas 104 épocas. A época 44 teve a menor perda de validação e seus pesos foram restaurados. O tempo registrado neste ambiente foi aproximadamente 0,11 segundo e depende da máquina.
+Treinamento por retropropagação e descida do gradiente estocástica, lote 1, taxa 0,005 e semente 42. Foram executadas 104 épocas. A época 44 teve a menor perda de validação e seus pesos foram restaurados. O tempo registrado neste ambiente foi aproximadamente 0,14 segundo e depende da máquina.
 
 Média e desvio foram ajustados nos 454 registros de treino. Os 97 registros de validação definiram a melhor época e o limite no percentil 95. O mesmo conjunto serviu às duas escolhas, o que limita a independência da calibração. O teste com 98 registros foi lido depois dessas escolhas.
 
@@ -35,4 +35,17 @@ node scripts/verificar_anomalias.mjs
 Verificações executadas
 Os gradientes foram comparados com diferenças finitas. Também foram conferidos o percentil, a média e a variância da padronização, os limites das alterações, a preservação das linhas originais e o carregamento dos parâmetros salvos. Todas essas verificações passaram.
 
-Esta implementação foi executada localmente com Node.js. O notebook Google Colab continua pendente.
+A implementação foi executada localmente e no Google Colab. O notebook inclui treinamento, avaliação e demonstração com novo aluno.
+
+Transições observadas nos cenários controlados
+
+| Cenário | Método | Cópias | Já sinalizados | Novos sinais | Deixaram de sinalizar | Sinalizados depois |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Queda de notas | autoencoder | 46 | 5 | 41 | 0 | 46 |
+| Queda de notas | baseline | 46 | 4 | 42 | 0 | 46 |
+| Faltas e notas altas | autoencoder | 12 | 0 | 12 | 0 | 12 |
+| Faltas e notas altas | baseline | 12 | 4 | 8 | 0 | 12 |
+| Estudo e notas baixas | autoencoder | 16 | 4 | 8 | 2 | 10 |
+| Estudo e notas baixas | baseline | 16 | 3 | 10 | 0 | 13 |
+
+Novos sinais contam apenas mudanças de abaixo para acima do limite. Dois casos do cenário de estudo deixaram de ser sinalizados pelo autoencoder. Não há rótulos de anomalias reais, portanto essas transições não estimam acertos ou erros reais.

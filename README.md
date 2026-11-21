@@ -95,6 +95,27 @@ O autoencoder empatou com a baseline nos dois primeiros cenários e detectou men
 
 Nos registros originais de teste, o autoencoder sinalizou **9 de 98 casos**, e a baseline sinalizou **7 de 98**. Essas quantidades indicam casos para revisão. Acurácia, F1 e falsos positivos de anomalias reais exigiriam rótulos independentes.
 
+### Sinais antes e depois das alterações
+
+Novos sinais contam os registros que estavam abaixo do limite e passaram a superá-lo após a alteração. Os casos que já estavam sinalizados são informados separadamente.
+
+| Cenário | Método | Cópias | Já sinalizados | Novos sinais | Deixaram de sinalizar | Sinalizados depois |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Queda de notas | autoencoder | 46 | 5 | 41 | 0 | 46 |
+| Queda de notas | baseline | 46 | 4 | 42 | 0 | 46 |
+| Faltas e notas altas | autoencoder | 12 | 0 | 12 | 0 | 12 |
+| Faltas e notas altas | baseline | 12 | 4 | 8 | 0 | 12 |
+| Estudo e notas baixas | autoencoder | 16 | 4 | 8 | 2 | 10 |
+| Estudo e notas baixas | baseline | 16 | 3 | 10 | 0 | 13 |
+
+No cenário de estudo, o autoencoder gerou 8 novos sinais entre 12 casos inicialmente abaixo do limite, ou 66,7%. Outros 2 casos deixaram de ser sinalizados. A baseline gerou 10 novos sinais entre 13 inicialmente abaixo, ou 76,9%. Os denominadores diferem porque cada método possui seu próprio limite.
+
+As taxas de cópias sinalizadas da tabela anterior continuam sendo 62,5% e 81,25% nesse cenário. Cada taxa responde a uma pergunta diferente. A primeira mede quantas cópias ficaram acima do limite, e a segunda mede novas sinalizações entre os casos inicialmente abaixo.
+
+### Alcance da avaliação
+
+Os resultados representam um experimento com alterações controladas. Os nove registros originais sinalizados continuam aguardando revisão independente. Precisão, F1, falsos positivos e acertos ou erros de anomalias reais permanecem sem medição. Uma aplicação com estudantes reais exigiria rótulos externos ao modelo e uma nova avaliação com esses rótulos.
+
 ## Retorno e demonstração
 
 O notebook reúne a execução do treinamento, o gráfico das perdas, a comparação com a baseline e uma tabela dos registros sinalizados. A célula Analisar um novo aluno permite preencher G1, G2, faltas e faixa de estudo. Ao executar, retorna o sinal, a pontuação, o limite e as contribuições por variável, usando o modelo já treinado.
@@ -116,7 +137,7 @@ As cópias alteradas também permitem mostrar exemplos detectados e alterações
 
 O notebook inclui os dados necessários e executa o detector JavaScript com Node.js. Também é possível baixar [anomalias_academicas.ipynb](notebooks/anomalias_academicas.ipynb) deste repositório e fazer upload no Colab.
 
-A execução completa foi conferida no Colab em 21/11/2026. As verificações de gradientes, normalização, percentil e consistência dos resultados foram concluídas.
+A execução completa foi conferida no Colab em 21/11/2026. As verificações de gradientes, normalização, percentil e consistência dos resultados foram concluídas. O arquivo versionado inclui as saídas reais das 13 células de código, o gráfico e as tabelas. O tempo registrado pode variar entre execuções.
 
 ### Execução local
 

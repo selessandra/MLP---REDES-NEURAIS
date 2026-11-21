@@ -155,6 +155,10 @@ export function executar() {
         });
         return { cenario: cenario.nome, elegiveis: pares.length,
             resumo: Object.fromEntries(Object.keys(metodos).map((nome) => [nome, {
+                ja_sinalizados: pares.filter((p) => p[nome].antes > limites[nome]).length,
+                novos_sinais: pares.filter((p) => p[nome].antes <= limites[nome] && p[nome].detectado).length,
+                deixaram_de_sinalizar: pares.filter((p) => p[nome].antes > limites[nome] && !p[nome].detectado).length,
+                avaliados_antes_abaixo: pares.filter((p) => p[nome].antes <= limites[nome]).length,
                 taxa_deteccao: pares.length ? pares.filter((p) => p[nome].detectado).length / pares.length : null,
                 variacao_media: pares.length ? pares.reduce((soma, p) => soma + p[nome].variacao, 0) / pares.length : null
             }])), pares };

@@ -44,4 +44,7 @@ Limitações e interpretação
 As alterações controladas podem produzir combinações plausíveis. O experimento mede resposta a perturbações e não comprova detecção de problemas reais. A rede pode reconstruir bem alguns perfis incomuns e sinalizar outros por raridade estatística. O pequeno conjunto de dados, as faixas amplas de estudo e o contexto de duas escolas limitam a generalização. O sinal deve apoiar uma revisão contextual e preservar a privacidade.
 
 Estado da implementação
-Esta etapa define o problema e o protocolo de avaliação. O autoencoder, a baseline de anomalias e seus resultados ainda serão implementados. As métricas já obtidas pela MLP de classificação pertencem à tarefa anterior.
+O autoencoder e a baseline estão implementados, treinados e avaliados. O notebook Colab inclui execução e demonstração com novo aluno. As métricas da MLP de classificação pertencem à tarefa anterior. A avaliação atual mede sensibilidade a alterações controladas. Anomalias reais continuam sem confirmação independente.
+
+Detalhamento da avaliação implementada
+A comparação também informa os casos já sinalizados, os novos sinais e os casos que deixaram de ser sinalizados. Novos sinais são calculados somente entre casos originalmente abaixo do limite. A confirmação de anomalias reais depende de avaliação independente. O notebook incorpora as saídas da execução conferida no Colab.
