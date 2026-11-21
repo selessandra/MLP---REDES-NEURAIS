@@ -1,0 +1,38 @@
+Detecção de anomalias acadêmicas
+
+Implementado um autoencoder 4 → 2 → 4. As entradas originais são G1, G2, absences e studytime. A camada reduzida usa tanh para representar relações não lineares com valores positivos e negativos. A saída é linear para reconstruir valores padronizados. A perda é o erro quadrático médio de reconstrução.
+
+Treinamento por retropropagação e descida do gradiente estocástica, lote 1, taxa 0,005 e semente 42. Foram executadas 104 épocas. A época 44 teve a menor perda de validação e seus pesos foram restaurados. O tempo registrado neste ambiente foi aproximadamente 0,11 segundo e depende da máquina.
+
+Média e desvio foram ajustados nos 454 registros de treino. Os 97 registros de validação definiram a melhor época e o limite no percentil 95. O mesmo conjunto serviu às duas escolhas, o que limita a independência da calibração. O teste com 98 registros foi lido depois dessas escolhas.
+
+A baseline usa a média dos quadrados das entradas padronizadas, medindo distância ao perfil médio. Cada método utiliza seu próprio percentil 95 da validação.
+
+Resultados nos registros originais
+Autoencoder sinalizou 9 de 98, ou 9,18%.
+Baseline sinalizou 7 de 98, ou 7,14%.
+Os registros originais não possuem rótulos de normalidade. Essas proporções não são taxas de falsos positivos.
+
+Detecção em cópias alteradas do teste
+Queda de notas, 46 cópias: autoencoder 46/46, baseline 46/46.
+Faltas elevadas com notas altas, 12 cópias: autoencoder 12/12, baseline 12/12.
+Maior faixa de estudo com notas baixas, 16 cópias: autoencoder 10/16, baseline 13/16.
+Os cenários são avaliados separadamente e podem compartilhar estudantes.
+
+A rede empatou com a baseline nos dois primeiros cenários e detectou menos alterações no terceiro. Este experimento não demonstra vantagem da rede sobre a solução simples. Não houve ajuste após observar esses resultados.
+
+Exemplos e erros
+Os valores, linhas de origem e respostas de ambos os métodos estão em avaliacao_controlada.json. No terceiro cenário, 6 das 16 cópias ficaram abaixo do limite do autoencoder. Esses casos mostram que ele pode reconstruir alterações e não sinalizá-las.
+Uma cópia sinalizada é uma detecção da alteração definida no experimento. A confirmação de anomalia real exige avaliação independente dos registros. Acurácia e F1 de anomalias reais permanecem indisponíveis.
+
+Limitações
+As combinações alteradas podem ser plausíveis. O estudo mede sensibilidade às perturbações didáticas. Os campos simulados da base complementada ficam fora das entradas do detector. A dimensão reduzida pode perder informações e a escala ordinal de studytime é uma aproximação. A base pequena e sem datas de coleta confirmadas limita o uso como alerta antecipado. Um sinal exige revisão contextual e cuidado com a privacidade.
+
+Execução na raiz do repositório
+node scripts/anomalias.mjs
+node scripts/verificar_anomalias.mjs
+
+Verificações executadas
+Os gradientes foram comparados com diferenças finitas. Também foram conferidos o percentil, a média e a variância da padronização, os limites das alterações, a preservação das linhas originais e o carregamento dos parâmetros salvos. Todas essas verificações passaram.
+
+Esta implementação foi executada localmente com Node.js. O notebook Google Colab continua pendente.

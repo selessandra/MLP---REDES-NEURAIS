@@ -1,0 +1,47 @@
+Definição da adaptação para detecção de anomalias
+
+Problema e aplicação
+Identificar perfis acadêmicos pouco comuns nas relações entre notas anteriores, faltas e tempo de estudo. A aplicação é apoiar a análise dos registros por professores e coordenadores. O sinal indica um caso para revisão. Seu significado depende do contexto do estudante.
+
+Entrada
+Usar somente G1, G2, absences e studytime, provenientes das colunas originais. G1 e G2 são notas de períodos anteriores. absences informa faltas. studytime é uma categoria ordinal de tempo semanal, de 1 a 4. As quatro variáveis serão padronizadas com média e desvio calculados no treino. A interpretação de studytime continuará sendo por faixas.
+
+A seleção exclui as colunas simuladas da nova tarefa. G3 e situacao_regra_didatica também ficam fora das entradas e da definição de anomalia. Os rótulos aprovado, recuperação e reprovado não informam se um perfil é incomum.
+
+Definição operacional
+O autoencoder aprenderá a reconstruir as quatro entradas a partir de uma representação reduzida. A pontuação de anomalia será a média dos erros quadráticos de reconstrução das entradas padronizadas. O limite será o percentil 95 das pontuações da validação original, por convenção inicial. Um registro será sinalizado quando sua pontuação for estritamente maior que esse limite.
+
+Esse limite é relativo à base e não representa uma probabilidade de dificuldade acadêmica. O treino contém perfis sem classificação de normalidade, inclusive possíveis casos raros. O modelo aprenderá os padrões predominantes disponíveis.
+
+Exemplos de perfis para investigação
+Queda de G1 para G2 pouco comum entre os estudantes.
+Notas elevadas combinadas com muitas faltas.
+Notas baixas combinadas com a maior faixa de tempo de estudo.
+Essas combinações são hipóteses para análise. A pontuação aprendida determinará quais casos serão sinalizados. Uma característica isolada, como nota baixa, não define anomalia automaticamente.
+
+Baseline
+Usar a média dos quadrados das quatro entradas padronizadas como pontuação de distância ao perfil médio do treino. A baseline terá seu próprio limite no percentil 95 da mesma validação. Os dois métodos usarão as mesmas entradas, divisões e exemplos de avaliação.
+
+Divisão e vazamento
+Manter os 454 registros de treino, 97 de validação e 98 de teste já separados. A estratificação anterior por situação serviu apenas para compor essas divisões. O detector não utilizará essa situação como alvo.
+Ajustar a padronização e os pesos somente no treino. Escolher a época pela perda de reconstrução na validação. Fixar os limites na validação antes de examinar os resultados do teste. Preservar os registros originais e a identificação da linha de origem.
+A disponibilidade temporal das faltas continua sem confirmação. A demonstração deve ser apresentada como análise de perfis disponíveis na base. Uma aplicação de alerta antecipado exigiria dados registrados até a data do alerta.
+
+Avaliação sem rótulos de anomalia
+A base não possui uma classificação validada de normalidade. Nos 98 registros originais de teste, apresentar a distribuição das pontuações, a proporção sinalizada e exemplos com seus valores e reconstruções. Essa proporção não mede falsos positivos.
+A seleção de um perfil para revisão não comprova erro nos dados nem dificuldade acadêmica. Uma avaliação real de acertos e erros exigirá rótulos atribuídos por especialistas com critérios independentes do modelo.
+
+Avaliação controlada complementar
+Depois de fixar o modelo e os limites, criar cópias identificadas dos registros do teste para três cenários. Manter sempre o vínculo com a linha original e executar cada cenário separadamente.
+1. Queda acentuada. Selecionar registros com G1 >= 12 e G2 >= 10. Definir G2 = 0 na cópia.
+2. Faltas elevadas com notas altas. Selecionar registros com G1 >= 15, G2 >= 15 e absences <= 10. Definir absences = 30 na cópia.
+3. Notas baixas com maior faixa de estudo. Selecionar registros com G1 <= 9, G2 <= 9 e studytime <= 2. Definir studytime = 4 na cópia.
+Esses valores são hipóteses de experimento dentro das faixas da base. Nenhuma cópia será adicionada ao treino ou usada para ajustar limites. Se um cenário não tiver registros elegíveis, informar a quantidade zero e a métrica indisponível.
+
+Para cada cenário e método, informar a quantidade elegível, a proporção das cópias sinalizadas e a variação de pontuação em relação aos registros de origem. Mostrar um exemplo detectado e um não detectado quando existirem. A taxa de detecção mede sensibilidade às alterações definidas no experimento. Os casos sem alteração continuam sem rótulo real de normalidade. F1 e acurácia de anomalias reais ficam indisponíveis sem revisão independente.
+
+Limitações e interpretação
+As alterações controladas podem produzir combinações plausíveis. O experimento mede resposta a perturbações e não comprova detecção de problemas reais. A rede pode reconstruir bem alguns perfis incomuns e sinalizar outros por raridade estatística. O pequeno conjunto de dados, as faixas amplas de estudo e o contexto de duas escolas limitam a generalização. O sinal deve apoiar uma revisão contextual e preservar a privacidade.
+
+Estado da implementação
+Esta etapa define o problema e o protocolo de avaliação. O autoencoder, a baseline de anomalias e seus resultados ainda serão implementados. As métricas já obtidas pela MLP de classificação pertencem à tarefa anterior.

@@ -1,0 +1,86 @@
+{
+  "campos": [
+    "G1",
+    "G2",
+    "absences",
+    "studytime"
+  ],
+  "arquitetura": [
+    4,
+    2,
+    4
+  ],
+  "configuracao": {
+    "semente": 42,
+    "taxa": 0.005,
+    "lote": 1,
+    "max_epocas": 1000,
+    "paciencia": 60
+  },
+  "melhor_epoca": 44,
+  "epocas_executadas": 104,
+  "segundos_treinamento": 0.1090872,
+  "limites": {
+    "autoencoder": 0.7029524686441498,
+    "baseline": 2.3431820065311375
+  },
+  "registros": {
+    "treino": 454,
+    "validacao": 97,
+    "teste": 98
+  },
+  "teste_original": {
+    "autoencoder": {
+      "sinalizados": 9,
+      "proporcao": 0.09183673469387756
+    },
+    "baseline": {
+      "sinalizados": 7,
+      "proporcao": 0.07142857142857142
+    }
+  },
+  "cenarios": [
+    {
+      "cenario": "queda_notas",
+      "elegiveis": 46,
+      "resumo": {
+        "autoencoder": {
+          "taxa_deteccao": 1,
+          "variacao_media": 3.167805866758782
+        },
+        "baseline": {
+          "taxa_deteccao": 1,
+          "variacao_media": 3.8877428591926657
+        }
+      }
+    },
+    {
+      "cenario": "faltas_notas_altas",
+      "elegiveis": 12,
+      "resumo": {
+        "autoencoder": {
+          "taxa_deteccao": 1,
+          "variacao_media": 5.603229107846757
+        },
+        "baseline": {
+          "taxa_deteccao": 1,
+          "variacao_media": 7.234736120660759
+        }
+      }
+    },
+    {
+      "cenario": "estudo_notas_baixas",
+      "elegiveis": 16,
+      "resumo": {
+        "autoencoder": {
+          "taxa_deteccao": 0.625,
+          "variacao_media": 0.8036169856968577
+        },
+        "baseline": {
+          "taxa_deteccao": 0.8125,
+          "variacao_media": 1.3854777211108025
+        }
+      }
+    }
+  ]
+}

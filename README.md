@@ -26,3 +26,9 @@ Os pesos treinados ficam em modelo/pesos_treinados.json. Para carregar e prever 
 Resultados, comparação, acertos, erros e limitações estão em resultados/analise_mlp.txt. O histórico por época está em resultados/historico_mlp.json. As métricas por classe e matrizes de confusão estão em resultados/mlp_metricas.json.
 
 O teste obteve 87,76% de acurácia e F1 macro 0,773. A baseline da classe majoritária obteve 84,69% e 0,306. Os campos simulados, a amostra pequena e a ausência de confirmação temporal limitam a interpretação prática.
+
+## Detecção de anomalias
+
+A adaptação usa um autoencoder 4 → 2 → 4 com G1, G2, faltas e faixa de estudo originais. Execute `node scripts/anomalias.mjs` para treinar e avaliar e `node scripts/verificar_anomalias.mjs` para conferir os cálculos. O protocolo está em documentacao/adaptacao_anomalias.txt. Os resultados e limites estão em resultados/anomalias/.
+
+A análise completa está em resultados/anomalias/analise.txt. O detector empatou com a baseline em dois cenários controlados e ficou abaixo dela no terceiro. Os registros originais não possuem anomalias confirmadas. A implementação local está disponível, e o notebook Colab permanece pendente.

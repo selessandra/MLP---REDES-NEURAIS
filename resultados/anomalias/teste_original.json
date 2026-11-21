@@ -1,0 +1,1668 @@
+[
+  {
+    "linha_csv": 2,
+    "valores": [
+      11,
+      10,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.17692423917076583,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.22874110123299127,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 3,
+    "valores": [
+      9,
+      9,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.046947292148705695,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.841469640848951,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 4,
+    "valores": [
+      12,
+      12,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.010907798197744624,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.05136540637033844,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 5,
+    "valores": [
+      13,
+      13,
+      10,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08258370382171827,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.9859385218857082,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 6,
+    "valores": [
+      18,
+      19,
+      0,
+      4
+    ],
+    "autoencoder": {
+      "pontuacao": 0.3844707604214478,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 4.854480343842396,
+      "sinalizado": true
+    }
+  },
+  {
+    "linha_csv": 7,
+    "valores": [
+      15,
+      15,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.03784982054265429,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.83231569941458,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 8,
+    "valores": [
+      9,
+      11,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.13860979112303734,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.22986198905208385,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 9,
+    "valores": [
+      13,
+      14,
+      5,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.016884354524341037,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.7039918568710295,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 10,
+    "valores": [
+      10,
+      11,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.014299648711228097,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5225316140791318,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 11,
+    "valores": [
+      11,
+      13,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.11866598283517113,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.21838233817577815,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 12,
+    "valores": [
+      11,
+      9,
+      8,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.33618925032311375,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.7098098269249951,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 13,
+    "valores": [
+      11,
+      11,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.03753862337852369,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.047597054218507025,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 14,
+    "valores": [
+      16,
+      15,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.035602743569604814,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.2167996944417407,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 15,
+    "valores": [
+      11,
+      15,
+      8,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.26579022226092175,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.987165987224069,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 16,
+    "valores": [
+      12,
+      12,
+      6,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.04516532566766046,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.0766679668251488,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 17,
+    "valores": [
+      15,
+      15,
+      0,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.09101030267792733,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.3588609213488216,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 18,
+    "valores": [
+      11,
+      11,
+      4,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08695366507226154,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.31930313995773374,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 19,
+    "valores": [
+      11,
+      10,
+      2,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.032946853638240875,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.41535561329455944,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 20,
+    "valores": [
+      12,
+      12,
+      4,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.1510539859727803,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.32307149210956515,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 21,
+    "valores": [
+      15,
+      13,
+      12,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 1.4975656598524134,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 1.5287401089911843,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 22,
+    "valores": [
+      11,
+      12,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.10185317597516713,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.15913021348851855,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 23,
+    "valores": [
+      13,
+      12,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.06518676695179225,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.23914192022211736,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 24,
+    "valores": [
+      13,
+      14,
+      4,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.2866252112417783,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5770712207531113,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 25,
+    "valores": [
+      17,
+      18,
+      0,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.03736725802045665,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 2.8936428337545186,
+      "sinalizado": true
+    }
+  },
+  {
+    "linha_csv": 26,
+    "valores": [
+      17,
+      18,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.5366938906882748,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 2.7836842844600103,
+      "sinalizado": true
+    }
+  },
+  {
+    "linha_csv": 27,
+    "valores": [
+      13,
+      12,
+      15,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.928548903065157,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 1.4508534264469242,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 28,
+    "valores": [
+      7,
+      10,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.19905335430748813,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.157148204817971,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 29,
+    "valores": [
+      11,
+      12,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.01058403307587253,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.4607308058391693,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 30,
+    "valores": [
+      12,
+      13,
+      4,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.1975523856577874,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.38232361679682475,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 31,
+    "valores": [
+      10,
+      10,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08353603454591225,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.17210290816480014,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 32,
+    "valores": [
+      13,
+      13,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.03490288746084577,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5999946372600278,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 33,
+    "valores": [
+      10,
+      10,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08353603454591225,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.17210290816480014,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 34,
+    "valores": [
+      12,
+      11,
+      4,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.14031625155068678,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.32652441312863617,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 35,
+    "valores": [
+      13,
+      14,
+      13,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 1.4997903191209607,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 1.4955541652627269,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 36,
+    "valores": [
+      10,
+      11,
+      0,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.5357631402372861,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.6324901633736401,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 37,
+    "valores": [
+      16,
+      15,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08014999464151497,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.101813614152658,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 38,
+    "valores": [
+      14,
+      15,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.01224253081592203,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.7433730253573783,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 39,
+    "valores": [
+      14,
+      17,
+      0,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.19552182677533458,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.7123717363213713,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 40,
+    "valores": [
+      11,
+      12,
+      8,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.4290063360769881,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.51133592674879,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 41,
+    "valores": [
+      12,
+      12,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.06506653883678311,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.166351486659421,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 42,
+    "valores": [
+      13,
+      13,
+      1,
+      4
+    ],
+    "autoencoder": {
+      "pontuacao": 0.5514815956150783,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.7665425753412562,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 43,
+    "valores": [
+      11,
+      10,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.17692423917076583,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.22874110123299127,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 44,
+    "valores": [
+      14,
+      17,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.1348147479657678,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.3008125946762124,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 45,
+    "valores": [
+      15,
+      15,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.03784982054265429,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.83231569941458,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 46,
+    "valores": [
+      10,
+      11,
+      2,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.33818423477280507,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5175040830845575,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 47,
+    "valores": [
+      12,
+      13,
+      6,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.07934706143910732,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.13592009151240844,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 48,
+    "valores": [
+      11,
+      11,
+      6,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.20033299551025288,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.37450020702396813,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 49,
+    "valores": [
+      12,
+      12,
+      12,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.45691174220847597,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.7528086100898032,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 50,
+    "valores": [
+      11,
+      10,
+      6,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.18333728976612665,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.44065817374936983,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 51,
+    "valores": [
+      12,
+      13,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.054193519257573826,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.22560361134668064,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 52,
+    "valores": [
+      12,
+      13,
+      2,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.16026422255225595,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.522176672702757,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 53,
+    "valores": [
+      16,
+      16,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08201761834698028,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.3491808759589097,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 54,
+    "valores": [
+      11,
+      13,
+      8,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.06477857916809364,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.6805466007305578,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 55,
+    "valores": [
+      12,
+      13,
+      11,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.9548484264469432,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 0.9477889863684013,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 56,
+    "valores": [
+      9,
+      9,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.046947292148705695,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.841469640848951,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 57,
+    "valores": [
+      12,
+      15,
+      10,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.5695892453356046,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.8082083331713639,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 58,
+    "valores": [
+      10,
+      11,
+      2,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.33818423477280507,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5175040830845575,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 59,
+    "valores": [
+      16,
+      16,
+      10,
+      4
+    ],
+    "autoencoder": {
+      "pontuacao": 0.30604396302429604,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 3.276430308865292,
+      "sinalizado": true
+    }
+  },
+  {
+    "linha_csv": 60,
+    "valores": [
+      14,
+      14,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.0854928791714352,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.8603114016081084,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 61,
+    "valores": [
+      11,
+      12,
+      0,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.4096860070725122,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5706893551336776,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 62,
+    "valores": [
+      11,
+      12,
+      4,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.011843462915847905,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.014249626588011913,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 63,
+    "valores": [
+      13,
+      12,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.025827547937095425,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.12415583993303478,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 64,
+    "valores": [
+      14,
+      16,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08923522348878118,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.8757542068745474,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 65,
+    "valores": [
+      17,
+      17,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.0768316292120049,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 2.109306338890446,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 66,
+    "valores": [
+      12,
+      10,
+      11,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.7717923937517748,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 0.9581477494256143,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 67,
+    "valores": [
+      12,
+      12,
+      6,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.29323015451315815,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.3782685591757996,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 68,
+    "valores": [
+      11,
+      12,
+      0,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.4096860070725122,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5706893551336776,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 69,
+    "valores": [
+      10,
+      11,
+      4,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.18818854103661364,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.4876095764731334,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 70,
+    "valores": [
+      12,
+      13,
+      2,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08747953928412991,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.4122181234082488,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 71,
+    "valores": [
+      10,
+      11,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.1672922622682526,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.22093102172848103,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 72,
+    "valores": [
+      15,
+      15,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.03784982054265429,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.83231569941458,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 73,
+    "valores": [
+      12,
+      11,
+      8,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.44293042754742107,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5220101209387635,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 74,
+    "valores": [
+      11,
+      10,
+      8,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.330884064146548,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5809468144932627,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 75,
+    "valores": [
+      10,
+      11,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.1672922622682526,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.22093102172848103,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 76,
+    "valores": [
+      9,
+      11,
+      6,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.17607856940121103,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.556765141857545,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 77,
+    "valores": [
+      10,
+      11,
+      8,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.06496100335810132,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.2715361426381017,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 78,
+    "valores": [
+      10,
+      10,
+      6,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.12512488983500386,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.49900606097026123,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 79,
+    "valores": [
+      9,
+      11,
+      6,
+      4
+    ],
+    "autoencoder": {
+      "pontuacao": 0.47549955386411447,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.7914425667930218,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 80,
+    "valores": [
+      11,
+      12,
+      2,
+      4
+    ],
+    "autoencoder": {
+      "pontuacao": 0.6631177466053895,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.5804221504855638,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 81,
+    "valores": [
+      14,
+      14,
+      8,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.3099413996705915,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.6093159301670782,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 82,
+    "valores": [
+      13,
+      11,
+      2,
+      4
+    ],
+    "autoencoder": {
+      "pontuacao": 0.6392886074125766,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.6638867782382336,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 83,
+    "valores": [
+      12,
+      11,
+      14,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.6304864792531317,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.1518248928857424,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 84,
+    "valores": [
+      11,
+      12,
+      0,
+      3
+    ],
+    "autoencoder": {
+      "pontuacao": 0.4096860070725122,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.5706893551336776,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 85,
+    "valores": [
+      8,
+      7,
+      14,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.5573290741803032,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 2.458817496043137,
+      "sinalizado": true
+    }
+  },
+  {
+    "linha_csv": 86,
+    "valores": [
+      9,
+      9,
+      16,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 1.0573857566052451,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 2.3041450615107286,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 87,
+    "valores": [
+      9,
+      9,
+      14,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.7665993287247419,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 1.8234901260562015,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 88,
+    "valores": [
+      7,
+      6,
+      3,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.3105621774671083,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.6066601561277316,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 89,
+    "valores": [
+      7,
+      8,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.4704277463818295,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.1759786830371157,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 90,
+    "valores": [
+      10,
+      9,
+      10,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.10161703728422894,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.6919373362167872,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 91,
+    "valores": [
+      8,
+      9,
+      4,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.01562539673648014,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.8860752619529237,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 92,
+    "valores": [
+      8,
+      9,
+      10,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.05054745196628944,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.0053405918339517,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 93,
+    "valores": [
+      7,
+      8,
+      12,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.08666141518149016,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.7624358064674979,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 94,
+    "valores": [
+      9,
+      9,
+      12,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.5230956105160922,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.4279267642793332,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 95,
+    "valores": [
+      6,
+      8,
+      2,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.38374761729153817,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.3816171315361003,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 96,
+    "valores": [
+      6,
+      8,
+      0,
+      1
+    ],
+    "autoencoder": {
+      "pontuacao": 0.24445180775696512,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 1.7982038041758337,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 97,
+    "valores": [
+      8,
+      8,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 0.397050445946478,
+      "sinalizado": false
+    },
+    "baseline": {
+      "pontuacao": 0.9209233146408424,
+      "sinalizado": false
+    }
+  },
+  {
+    "linha_csv": 98,
+    "valores": [
+      9,
+      0,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 2.242634933906981,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 4.52136321716877,
+      "sinalizado": true
+    }
+  },
+  {
+    "linha_csv": 99,
+    "valores": [
+      7,
+      0,
+      0,
+      2
+    ],
+    "autoencoder": {
+      "pontuacao": 1.9352422310784456,
+      "sinalizado": true
+    },
+    "baseline": {
+      "pontuacao": 4.965904793569522,
+      "sinalizado": true
+    }
+  }
+]

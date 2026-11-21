@@ -1,0 +1,2048 @@
+[
+  {
+    "cenario": "queda_notas",
+    "elegiveis": 46,
+    "resumo": {
+      "autoencoder": {
+        "taxa_deteccao": 1,
+        "variacao_media": 3.167805866758782
+      },
+      "baseline": {
+        "taxa_deteccao": 1,
+        "variacao_media": 3.8877428591926657
+      }
+    },
+    "pares": [
+      {
+        "linha_csv": 4,
+        "original": [
+          12,
+          12,
+          2,
+          2
+        ],
+        "alterado": [
+          12,
+          0,
+          2,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.010907798197744624,
+          "depois": 2.780634019099725,
+          "variacao": 2.76972622090198,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.05136540637033844,
+          "depois": 4.231333475217013,
+          "variacao": 4.179968068846674,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 5,
+        "original": [
+          13,
+          13,
+          10,
+          3
+        ],
+        "alterado": [
+          13,
+          0,
+          10,
+          3
+        ],
+        "autoencoder": {
+          "antes": 0.08258370382171827,
+          "depois": 2.875600101776601,
+          "variacao": 2.7930163979548825,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.9859385218857082,
+          "depois": 5.106654466045123,
+          "variacao": 4.120715944159415,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 6,
+        "original": [
+          18,
+          19,
+          0,
+          4
+        ],
+        "alterado": [
+          18,
+          0,
+          0,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.3844707604214478,
+          "depois": 6.596608701676218,
+          "variacao": 6.21213794125477,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 4.854480343842396,
+          "depois": 7.30287758004531,
+          "variacao": 2.448397236202914,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 7,
+        "original": [
+          15,
+          15,
+          2,
+          2
+        ],
+        "alterado": [
+          15,
+          0,
+          2,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.03784982054265429,
+          "depois": 3.941283287761731,
+          "variacao": 3.903433467219077,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.83231569941458,
+          "depois": 4.646412257080484,
+          "variacao": 3.814096557665904,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 9,
+        "original": [
+          13,
+          14,
+          5,
+          3
+        ],
+        "alterado": [
+          13,
+          0,
+          5,
+          3
+        ],
+        "autoencoder": {
+          "antes": 0.016884354524341037,
+          "depois": 3.217282403589139,
+          "variacao": 3.200398049064798,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.7039918568710295,
+          "depois": 4.702750630636855,
+          "variacao": 3.9987587737658252,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 14,
+        "original": [
+          16,
+          15,
+          0,
+          2
+        ],
+        "alterado": [
+          16,
+          0,
+          0,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.035602743569604814,
+          "depois": 4.571264178101503,
+          "variacao": 4.535661434531898,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.2167996944417407,
+          "depois": 5.030896252107644,
+          "variacao": 3.814096557665904,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 16,
+        "original": [
+          12,
+          12,
+          6,
+          2
+        ],
+        "alterado": [
+          12,
+          0,
+          6,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.04516532566766046,
+          "depois": 2.455442703044695,
+          "variacao": 2.4102773773770347,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.0766679668251488,
+          "depois": 4.256636035671823,
+          "variacao": 4.179968068846675,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 17,
+        "original": [
+          15,
+          15,
+          0,
+          3
+        ],
+        "alterado": [
+          15,
+          0,
+          0,
+          3
+        ],
+        "autoencoder": {
+          "antes": 0.09101030267792733,
+          "depois": 4.640653334653713,
+          "variacao": 4.549643031975786,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.3588609213488216,
+          "depois": 5.172957479014726,
+          "variacao": 3.8140965576659043,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 20,
+        "original": [
+          12,
+          12,
+          4,
+          1
+        ],
+        "alterado": [
+          12,
+          0,
+          4,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.1510539859727803,
+          "depois": 2.4274625292489964,
+          "variacao": 2.276408543276216,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.32307149210956515,
+          "depois": 4.50303956095624,
+          "variacao": 4.179968068846675,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 21,
+        "original": [
+          15,
+          13,
+          12,
+          1
+        ],
+        "alterado": [
+          15,
+          0,
+          12,
+          1
+        ],
+        "autoencoder": {
+          "antes": 1.4975656598524134,
+          "depois": 4.008416639804357,
+          "variacao": 2.510850979951943,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.5287401089911843,
+          "depois": 5.649456053150599,
+          "variacao": 4.120715944159415,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 23,
+        "original": [
+          13,
+          12,
+          0,
+          2
+        ],
+        "alterado": [
+          13,
+          0,
+          0,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.06518676695179225,
+          "depois": 3.347710123533287,
+          "variacao": 3.282523356581495,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.23914192022211736,
+          "depois": 4.419109989068792,
+          "variacao": 4.179968068846675,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 24,
+        "original": [
+          13,
+          14,
+          4,
+          1
+        ],
+        "alterado": [
+          13,
+          0,
+          4,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.2866252112417783,
+          "depois": 2.811645528774743,
+          "variacao": 2.525020317532965,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.5770712207531113,
+          "depois": 4.575829994518936,
+          "variacao": 3.998758773765825,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 25,
+        "original": [
+          17,
+          18,
+          0,
+          3
+        ],
+        "alterado": [
+          17,
+          0,
+          0,
+          3
+        ],
+        "autoencoder": {
+          "antes": 0.03736725802045665,
+          "depois": 5.496525668802029,
+          "variacao": 5.459158410781573,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 2.8936428337545186,
+          "depois": 5.777522468882676,
+          "variacao": 2.8838796351281575,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 26,
+        "original": [
+          17,
+          18,
+          0,
+          1
+        ],
+        "alterado": [
+          17,
+          0,
+          0,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.5366938906882748,
+          "depois": 4.809762450636028,
+          "variacao": 4.273068559947753,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 2.7836842844600103,
+          "depois": 5.667563919588168,
+          "variacao": 2.8838796351281575,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 27,
+        "original": [
+          13,
+          12,
+          15,
+          2
+        ],
+        "alterado": [
+          13,
+          0,
+          15,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.928548903065157,
+          "depois": 2.9546156024219847,
+          "variacao": 2.0260666993568277,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.4508534264469242,
+          "depois": 5.630821495293599,
+          "variacao": 4.179968068846675,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 30,
+        "original": [
+          12,
+          13,
+          4,
+          1
+        ],
+        "alterado": [
+          12,
+          0,
+          4,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.1975523856577874,
+          "depois": 2.4274625292489964,
+          "variacao": 2.229910143591209,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.38232361679682475,
+          "depois": 4.50303956095624,
+          "variacao": 4.120715944159415,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 32,
+        "original": [
+          13,
+          13,
+          0,
+          1
+        ],
+        "alterado": [
+          13,
+          0,
+          0,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.03490288746084577,
+          "depois": 3.011541035386283,
+          "variacao": 2.976638147925437,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.5999946372600278,
+          "depois": 4.720710581419443,
+          "variacao": 4.120715944159415,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 34,
+        "original": [
+          12,
+          11,
+          4,
+          1
+        ],
+        "alterado": [
+          12,
+          0,
+          4,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.14031625155068678,
+          "depois": 2.4274625292489964,
+          "variacao": 2.2871462776983096,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.32652441312863617,
+          "depois": 4.50303956095624,
+          "variacao": 4.176515147827604,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 35,
+        "original": [
+          13,
+          14,
+          13,
+          1
+        ],
+        "alterado": [
+          13,
+          0,
+          13,
+          1
+        ],
+        "autoencoder": {
+          "antes": 1.4997903191209607,
+          "depois": 3.0724227276235094,
+          "variacao": 1.5726324085025487,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.4955541652627269,
+          "depois": 5.494312939028552,
+          "variacao": 3.998758773765825,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 37,
+        "original": [
+          16,
+          15,
+          2,
+          2
+        ],
+        "alterado": [
+          16,
+          0,
+          2,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.08014999464151497,
+          "depois": 4.400486981019869,
+          "variacao": 4.320336986378353,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.101813614152658,
+          "depois": 4.915910171818561,
+          "variacao": 3.8140965576659034,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 38,
+        "original": [
+          14,
+          15,
+          0,
+          2
+        ],
+        "alterado": [
+          14,
+          0,
+          0,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.01224253081592203,
+          "depois": 3.7191347696215886,
+          "variacao": 3.7068922388056667,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.7433730253573783,
+          "depois": 4.557469583023282,
+          "variacao": 3.814096557665904,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 39,
+        "original": [
+          14,
+          17,
+          0,
+          3
+        ],
+        "alterado": [
+          14,
+          0,
+          0,
+          3
+        ],
+        "autoencoder": {
+          "antes": 0.19552182677533458,
+          "depois": 4.266791009746949,
+          "variacao": 4.071269182971614,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.7123717363213713,
+          "depois": 4.9690287246684415,
+          "variacao": 3.2566569883470704,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 41,
+        "original": [
+          12,
+          12,
+          0,
+          2
+        ],
+        "alterado": [
+          12,
+          0,
+          0,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.06506653883678311,
+          "depois": 3.013413261346164,
+          "variacao": 2.948346722509381,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.166351486659421,
+          "depois": 4.346319555506096,
+          "variacao": 4.179968068846675,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 42,
+        "original": [
+          13,
+          13,
+          1,
+          4
+        ],
+        "alterado": [
+          13,
+          0,
+          1,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.5514815956150783,
+          "depois": 4.507142909970171,
+          "variacao": 3.955661314355093,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.7665425753412562,
+          "depois": 5.887258519500671,
+          "variacao": 4.120715944159414,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 44,
+        "original": [
+          14,
+          17,
+          0,
+          2
+        ],
+        "alterado": [
+          14,
+          0,
+          0,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.1348147479657678,
+          "depois": 3.7191347696215886,
+          "variacao": 3.5843200216558206,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.3008125946762124,
+          "depois": 4.557469583023282,
+          "variacao": 3.25665698834707,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 45,
+        "original": [
+          15,
+          15,
+          2,
+          2
+        ],
+        "alterado": [
+          15,
+          0,
+          2,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.03784982054265429,
+          "depois": 3.941283287761731,
+          "variacao": 3.903433467219077,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.83231569941458,
+          "depois": 4.646412257080484,
+          "variacao": 3.814096557665904,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 47,
+        "original": [
+          12,
+          13,
+          6,
+          2
+        ],
+        "alterado": [
+          12,
+          0,
+          6,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.07934706143910732,
+          "depois": 2.455442703044695,
+          "variacao": 2.3760956416055876,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.13592009151240844,
+          "depois": 4.256636035671823,
+          "variacao": 4.120715944159414,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 49,
+        "original": [
+          12,
+          12,
+          12,
+          2
+        ],
+        "alterado": [
+          12,
+          0,
+          12,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.45691174220847597,
+          "depois": 2.373048832031615,
+          "variacao": 1.9161370898231391,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.7528086100898032,
+          "depois": 4.932776678936477,
+          "variacao": 4.179968068846674,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 51,
+        "original": [
+          12,
+          13,
+          0,
+          2
+        ],
+        "alterado": [
+          12,
+          0,
+          0,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.054193519257573826,
+          "depois": 3.013413261346164,
+          "variacao": 2.95921974208859,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.22560361134668064,
+          "depois": 4.346319555506096,
+          "variacao": 4.120715944159415,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 52,
+        "original": [
+          12,
+          13,
+          2,
+          3
+        ],
+        "alterado": [
+          12,
+          0,
+          2,
+          3
+        ],
+        "autoencoder": {
+          "antes": 0.16026422255225595,
+          "depois": 3.2922953061936413,
+          "variacao": 3.1320310836413854,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.522176672702757,
+          "depois": 4.642892616862172,
+          "variacao": 4.120715944159414,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 53,
+        "original": [
+          16,
+          16,
+          2,
+          2
+        ],
+        "alterado": [
+          16,
+          0,
+          2,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.08201761834698028,
+          "depois": 4.400486981019869,
+          "variacao": 4.3184693626728885,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.3491808759589097,
+          "depois": 4.915910171818561,
+          "variacao": 3.566729295859652,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 55,
+        "original": [
+          12,
+          13,
+          11,
+          1
+        ],
+        "alterado": [
+          12,
+          0,
+          11,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.9548484264469432,
+          "depois": 2.4868847385533974,
+          "variacao": 1.5320363121064542,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.9477889863684013,
+          "depois": 5.0685049305278165,
+          "variacao": 4.120715944159415,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 57,
+        "original": [
+          12,
+          15,
+          10,
+          2
+        ],
+        "alterado": [
+          12,
+          0,
+          10,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.5695892453356046,
+          "depois": 2.3398187985060015,
+          "variacao": 1.7702295531703969,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.8082083331713639,
+          "depois": 4.622304890837268,
+          "variacao": 3.814096557665904,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 59,
+        "original": [
+          16,
+          16,
+          10,
+          4
+        ],
+        "alterado": [
+          16,
+          0,
+          10,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.30604396302429604,
+          "depois": 4.439427093807247,
+          "variacao": 4.133383130782951,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 3.276430308865292,
+          "depois": 6.843159604724944,
+          "variacao": 3.566729295859652,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 60,
+        "original": [
+          14,
+          14,
+          0,
+          1
+        ],
+        "alterado": [
+          14,
+          0,
+          0,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.0854928791714352,
+          "depois": 3.4000910537362024,
+          "variacao": 3.3145981745647672,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.8603114016081084,
+          "depois": 4.859070175373933,
+          "variacao": 3.998758773765825,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 63,
+        "original": [
+          13,
+          12,
+          2,
+          2
+        ],
+        "alterado": [
+          13,
+          0,
+          2,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.025827547937095425,
+          "depois": 3.1307660719070065,
+          "variacao": 3.104938523969911,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.12415583993303478,
+          "depois": 4.304123908779709,
+          "variacao": 4.179968068846674,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 64,
+        "original": [
+          14,
+          16,
+          2,
+          2
+        ],
+        "alterado": [
+          14,
+          0,
+          2,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.08923522348878118,
+          "depois": 3.517891599833632,
+          "variacao": 3.428656376344851,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.8757542068745474,
+          "depois": 4.442483502734199,
+          "variacao": 3.566729295859652,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 65,
+        "original": [
+          17,
+          17,
+          0,
+          2
+        ],
+        "alterado": [
+          17,
+          0,
+          0,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.0768316292120049,
+          "depois": 5.051461705144257,
+          "variacao": 4.974630075932253,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 2.109306338890446,
+          "depois": 5.365963327237517,
+          "variacao": 3.256656988347071,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 66,
+        "original": [
+          12,
+          10,
+          11,
+          1
+        ],
+        "alterado": [
+          12,
+          0,
+          11,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.7717923937517748,
+          "depois": 2.4868847385533974,
+          "variacao": 1.7150923448016226,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.9581477494256143,
+          "depois": 5.0685049305278165,
+          "variacao": 4.110357181102202,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 67,
+        "original": [
+          12,
+          12,
+          6,
+          1
+        ],
+        "alterado": [
+          12,
+          0,
+          6,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.29323015451315815,
+          "depois": 2.382737975987333,
+          "variacao": 2.0895078214741747,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.3782685591757996,
+          "depois": 4.558236628022474,
+          "variacao": 4.179968068846675,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 70,
+        "original": [
+          12,
+          13,
+          2,
+          1
+        ],
+        "alterado": [
+          12,
+          0,
+          2,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.08747953928412991,
+          "depois": 2.520988370991129,
+          "variacao": 2.433508831706999,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.4122181234082488,
+          "depois": 4.5329340675676635,
+          "variacao": 4.120715944159414,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 72,
+        "original": [
+          15,
+          15,
+          2,
+          2
+        ],
+        "alterado": [
+          15,
+          0,
+          2,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.03784982054265429,
+          "depois": 3.941283287761731,
+          "variacao": 3.903433467219077,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.83231569941458,
+          "depois": 4.646412257080484,
+          "variacao": 3.814096557665904,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 73,
+        "original": [
+          12,
+          11,
+          8,
+          1
+        ],
+        "alterado": [
+          12,
+          0,
+          8,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.44293042754742107,
+          "depois": 2.386556041606007,
+          "variacao": 1.9436256140585861,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.5220101209387635,
+          "depois": 4.6985252687663674,
+          "variacao": 4.176515147827604,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 81,
+        "original": [
+          14,
+          14,
+          8,
+          2
+        ],
+        "alterado": [
+          14,
+          0,
+          8,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.3099413996705915,
+          "depois": 3.184033612068261,
+          "variacao": 2.8740922123976693,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.6093159301670782,
+          "depois": 4.608074703932903,
+          "variacao": 3.9987587737658252,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 82,
+        "original": [
+          13,
+          11,
+          2,
+          4
+        ],
+        "alterado": [
+          13,
+          0,
+          2,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.6392886074125766,
+          "depois": 4.311026489389592,
+          "variacao": 3.6717378819770152,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.6638867782382336,
+          "depois": 5.840401926065837,
+          "variacao": 4.176515147827604,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 83,
+        "original": [
+          12,
+          11,
+          14,
+          2
+        ],
+        "alterado": [
+          12,
+          0,
+          14,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.6304864792531317,
+          "depois": 2.4741554104973065,
+          "variacao": 1.8436689312441747,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.1518248928857424,
+          "depois": 5.328340040713346,
+          "variacao": 4.176515147827604,
+          "detectado": true
+        }
+      }
+    ]
+  },
+  {
+    "cenario": "faltas_notas_altas",
+    "elegiveis": 12,
+    "resumo": {
+      "autoencoder": {
+        "taxa_deteccao": 1,
+        "variacao_media": 5.603229107846757
+      },
+      "baseline": {
+        "taxa_deteccao": 1,
+        "variacao_media": 7.234736120660759
+      }
+    },
+    "pares": [
+      {
+        "linha_csv": 6,
+        "original": [
+          18,
+          19,
+          0,
+          4
+        ],
+        "alterado": [
+          18,
+          19,
+          30,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.3844707604214478,
+          "depois": 5.7742943948687,
+          "variacao": 5.389823634447252,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 4.854480343842396,
+          "depois": 12.064304375660303,
+          "variacao": 7.209824031817907,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 7,
+        "original": [
+          15,
+          15,
+          2,
+          2
+        ],
+        "alterado": [
+          15,
+          15,
+          30,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.03784982054265429,
+          "depois": 5.52265594589011,
+          "variacao": 5.484806125347456,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.83231569941458,
+          "depois": 8.157125811521569,
+          "variacao": 7.324810112106989,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 14,
+        "original": [
+          16,
+          15,
+          0,
+          2
+        ],
+        "alterado": [
+          16,
+          15,
+          30,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.035602743569604814,
+          "depois": 5.767277196154868,
+          "variacao": 5.731674452585263,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.2167996944417407,
+          "depois": 8.426623726259647,
+          "variacao": 7.209824031817907,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 17,
+        "original": [
+          15,
+          15,
+          0,
+          3
+        ],
+        "alterado": [
+          15,
+          15,
+          30,
+          3
+        ],
+        "autoencoder": {
+          "antes": 0.09101030267792733,
+          "depois": 4.331472734623909,
+          "variacao": 4.240462431945982,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.3588609213488216,
+          "depois": 8.568684953166727,
+          "variacao": 7.209824031817906,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 25,
+        "original": [
+          17,
+          18,
+          0,
+          3
+        ],
+        "alterado": [
+          17,
+          18,
+          30,
+          3
+        ],
+        "autoencoder": {
+          "antes": 0.03736725802045665,
+          "depois": 5.633223073165452,
+          "variacao": 5.595855815144995,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 2.8936428337545186,
+          "depois": 10.103466865572425,
+          "variacao": 7.209824031817907,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 26,
+        "original": [
+          17,
+          18,
+          0,
+          1
+        ],
+        "alterado": [
+          17,
+          18,
+          30,
+          1
+        ],
+        "autoencoder": {
+          "antes": 0.5366938906882748,
+          "depois": 8.470189324155108,
+          "variacao": 7.933495433466833,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 2.7836842844600103,
+          "depois": 9.993508316277916,
+          "variacao": 7.209824031817906,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 37,
+        "original": [
+          16,
+          15,
+          2,
+          2
+        ],
+        "alterado": [
+          16,
+          15,
+          30,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.08014999464151497,
+          "depois": 5.767277196154868,
+          "variacao": 5.687127201513353,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.101813614152658,
+          "depois": 8.426623726259647,
+          "variacao": 7.32481011210699,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 45,
+        "original": [
+          15,
+          15,
+          2,
+          2
+        ],
+        "alterado": [
+          15,
+          15,
+          30,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.03784982054265429,
+          "depois": 5.52265594589011,
+          "variacao": 5.484806125347456,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.83231569941458,
+          "depois": 8.157125811521569,
+          "variacao": 7.324810112106989,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 53,
+        "original": [
+          16,
+          16,
+          2,
+          2
+        ],
+        "alterado": [
+          16,
+          16,
+          30,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.08201761834698028,
+          "depois": 5.988015125630546,
+          "variacao": 5.9059975072835655,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.3491808759589097,
+          "depois": 8.6739909880659,
+          "variacao": 7.32481011210699,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 59,
+        "original": [
+          16,
+          16,
+          10,
+          4
+        ],
+        "alterado": [
+          16,
+          16,
+          30,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.30604396302429604,
+          "depois": 4.170850870772385,
+          "variacao": 3.8648069077480884,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 3.276430308865292,
+          "depois": 10.210269005352027,
+          "variacao": 6.933838696486735,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 65,
+        "original": [
+          17,
+          17,
+          0,
+          2
+        ],
+        "alterado": [
+          17,
+          17,
+          30,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.0768316292120049,
+          "depois": 6.5119191631953885,
+          "variacao": 6.435087533983384,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 2.109306338890446,
+          "depois": 9.319130370708352,
+          "variacao": 7.209824031817906,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 72,
+        "original": [
+          15,
+          15,
+          2,
+          2
+        ],
+        "alterado": [
+          15,
+          15,
+          30,
+          2
+        ],
+        "autoencoder": {
+          "antes": 0.03784982054265429,
+          "depois": 5.52265594589011,
+          "variacao": 5.484806125347456,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.83231569941458,
+          "depois": 8.157125811521569,
+          "variacao": 7.324810112106989,
+          "detectado": true
+        }
+      }
+    ]
+  },
+  {
+    "cenario": "estudo_notas_baixas",
+    "elegiveis": 16,
+    "resumo": {
+      "autoencoder": {
+        "taxa_deteccao": 0.625,
+        "variacao_media": 0.8036169856968577
+      },
+      "baseline": {
+        "taxa_deteccao": 0.8125,
+        "variacao_media": 1.3854777211108025
+      }
+    },
+    "pares": [
+      {
+        "linha_csv": 3,
+        "original": [
+          9,
+          9,
+          0,
+          1
+        ],
+        "alterado": [
+          9,
+          9,
+          0,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.046947292148705695,
+          "depois": 1.423428915857674,
+          "variacao": 1.3764816237089683,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.841469640848951,
+          "depois": 2.0761470657844283,
+          "variacao": 1.2346774249354773,
+          "detectado": false
+        }
+      },
+      {
+        "linha_csv": 56,
+        "original": [
+          9,
+          9,
+          0,
+          1
+        ],
+        "alterado": [
+          9,
+          9,
+          0,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.046947292148705695,
+          "depois": 1.423428915857674,
+          "variacao": 1.3764816237089683,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.841469640848951,
+          "depois": 2.0761470657844283,
+          "variacao": 1.2346774249354773,
+          "detectado": false
+        }
+      },
+      {
+        "linha_csv": 85,
+        "original": [
+          8,
+          7,
+          14,
+          1
+        ],
+        "alterado": [
+          8,
+          7,
+          14,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.5573290741803032,
+          "depois": 0.49077398883122836,
+          "variacao": -0.06655508534907484,
+          "detectado": false
+        },
+        "baseline": {
+          "antes": 2.458817496043137,
+          "depois": 3.693494920978614,
+          "variacao": 1.234677424935477,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 86,
+        "original": [
+          9,
+          9,
+          16,
+          1
+        ],
+        "alterado": [
+          9,
+          9,
+          16,
+          4
+        ],
+        "autoencoder": {
+          "antes": 1.0573857566052451,
+          "depois": 0.31619454164441646,
+          "variacao": -0.7411912149608286,
+          "detectado": false
+        },
+        "baseline": {
+          "antes": 2.3041450615107286,
+          "depois": 3.5388224864462057,
+          "variacao": 1.234677424935477,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 87,
+        "original": [
+          9,
+          9,
+          14,
+          1
+        ],
+        "alterado": [
+          9,
+          9,
+          14,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.7665993287247419,
+          "depois": 0.219370256315494,
+          "variacao": -0.5472290724092479,
+          "detectado": false
+        },
+        "baseline": {
+          "antes": 1.8234901260562015,
+          "depois": 3.0581675509916786,
+          "variacao": 1.234677424935477,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 88,
+        "original": [
+          7,
+          6,
+          3,
+          2
+        ],
+        "alterado": [
+          7,
+          6,
+          3,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.3105621774671083,
+          "depois": 1.48040274391208,
+          "variacao": 1.1698405664449716,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.6066601561277316,
+          "depois": 3.1429381734138593,
+          "variacao": 1.5362780172861277,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 89,
+        "original": [
+          7,
+          8,
+          0,
+          2
+        ],
+        "alterado": [
+          7,
+          8,
+          0,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.4704277463818295,
+          "depois": 1.7982255872804893,
+          "variacao": 1.32779784089866,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.1759786830371157,
+          "depois": 2.7122567003232434,
+          "variacao": 1.5362780172861277,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 91,
+        "original": [
+          8,
+          9,
+          4,
+          1
+        ],
+        "alterado": [
+          8,
+          9,
+          4,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.01562539673648014,
+          "depois": 0.8945881465860053,
+          "variacao": 0.8789627498495252,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.8860752619529237,
+          "depois": 2.120752686888401,
+          "variacao": 1.234677424935477,
+          "detectado": false
+        }
+      },
+      {
+        "linha_csv": 92,
+        "original": [
+          8,
+          9,
+          10,
+          2
+        ],
+        "alterado": [
+          8,
+          9,
+          10,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.05054745196628944,
+          "depois": 0.339994268666133,
+          "variacao": 0.28944681669984357,
+          "detectado": false
+        },
+        "baseline": {
+          "antes": 1.0053405918339517,
+          "depois": 2.5416186091200794,
+          "variacao": 1.5362780172861277,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 93,
+        "original": [
+          7,
+          8,
+          12,
+          2
+        ],
+        "alterado": [
+          7,
+          8,
+          12,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.08666141518149016,
+          "depois": 0.4703733659432129,
+          "variacao": 0.3837119507617227,
+          "detectado": false
+        },
+        "baseline": {
+          "antes": 1.7624358064674979,
+          "depois": 3.2987138237536255,
+          "variacao": 1.5362780172861277,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 94,
+        "original": [
+          9,
+          9,
+          12,
+          1
+        ],
+        "alterado": [
+          9,
+          9,
+          12,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.5230956105160922,
+          "depois": 0.19772682698449223,
+          "variacao": -0.3253687835316,
+          "detectado": false
+        },
+        "baseline": {
+          "antes": 1.4279267642793332,
+          "depois": 2.66260418921481,
+          "variacao": 1.2346774249354768,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 95,
+        "original": [
+          6,
+          8,
+          2,
+          2
+        ],
+        "alterado": [
+          6,
+          8,
+          2,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.38374761729153817,
+          "depois": 1.5884885810668592,
+          "variacao": 1.204740963775321,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.3816171315361003,
+          "depois": 2.917895148822228,
+          "variacao": 1.5362780172861277,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 96,
+        "original": [
+          6,
+          8,
+          0,
+          1
+        ],
+        "alterado": [
+          6,
+          8,
+          0,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.24445180775696512,
+          "depois": 1.9787116186991147,
+          "variacao": 1.7342598109421496,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 1.7982038041758337,
+          "depois": 3.032881229111311,
+          "variacao": 1.2346774249354773,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 97,
+        "original": [
+          8,
+          8,
+          0,
+          2
+        ],
+        "alterado": [
+          8,
+          8,
+          0,
+          4
+        ],
+        "autoencoder": {
+          "antes": 0.397050445946478,
+          "depois": 1.6561154582255726,
+          "variacao": 1.2590650122790947,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 0.9209233146408424,
+          "depois": 2.4572013319269703,
+          "variacao": 1.536278017286128,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 98,
+        "original": [
+          9,
+          0,
+          0,
+          2
+        ],
+        "alterado": [
+          9,
+          0,
+          0,
+          4
+        ],
+        "autoencoder": {
+          "antes": 2.242634933906981,
+          "depois": 3.9289565476742263,
+          "variacao": 1.6863216137672454,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 4.52136321716877,
+          "depois": 6.057641234454898,
+          "variacao": 1.5362780172861283,
+          "detectado": true
+        }
+      },
+      {
+        "linha_csv": 99,
+        "original": [
+          7,
+          0,
+          0,
+          2
+        ],
+        "alterado": [
+          7,
+          0,
+          0,
+          4
+        ],
+        "autoencoder": {
+          "antes": 1.9352422310784456,
+          "depois": 3.7863475856424493,
+          "variacao": 1.8511053545640037,
+          "detectado": true
+        },
+        "baseline": {
+          "antes": 4.965904793569522,
+          "depois": 6.5021828108556505,
+          "variacao": 1.5362780172861283,
+          "detectado": true
+        }
+      }
+    ]
+  }
+]
