@@ -1,0 +1,33 @@
+Resultados da MLP
+
+Treinamento por descida do gradiente estocástica e retropropagação, com taxa 0,01 e semente 42. A entropia cruzada recebeu pesos inversos à frequência das classes, calculados somente no treino, para dar maior peso às classes raras.
+
+Limite de 500 épocas, com parada após 60 épocas sem melhora do F1 macro de validação. Foram executadas 74 épocas. Os pesos da época 14 foram restaurados. O teste foi avaliado depois da seleção dos pesos, sem orientar ajustes.
+
+Comparação no teste, com 98 registros
+Baseline: acurácia 84,69%, F1 macro 0,306.
+MLP: acurácia 87,76%, F1 macro 0,773.
+A MLP acertou 86 casos e errou 12.
+
+Matriz de confusão, com linhas reais e colunas previstas na ordem aprovado, recuperacao, reprovado
+76  7  0
+ 4  8  0
+ 1  0  2
+
+Recall por classe
+Aprovado: 76 de 83, ou 91,57%.
+Recuperação: 8 de 12, ou 66,67%.
+Reprovado: 2 de 3, ou 66,67%.
+
+Exemplos localizáveis em dados/teste_normalizado.csv
+Acerto na linha 2: real aprovado, previsto aprovado.
+Erro na linha 10: real aprovado, previsto recuperacao.
+Todas as previsões e probabilidades estão em mlp_teste_previsoes.json.
+
+Limitações
+Há somente três reprovados no teste. Um caso altera muito as métricas dessa classe.
+Os campos complementados são simulados. Suas relações foram criadas a partir de entradas existentes.
+A situação é uma regra didática derivada de G3, incluindo a categoria recuperação. G3 foi excluída das entradas.
+A disponibilidade das informações antes do resultado final continua sem confirmação, especialmente o período das faltas.
+Os resultados correspondem a uma divisão aleatória e uma semente. Não demonstram desempenho em outra instituição.
+As probabilidades não foram calibradas. A comparação não permite atribuir causalidade aos hábitos dos estudantes.

@@ -1,0 +1,137 @@
+{
+  "treino": {
+    "registros": 454,
+    "acuracia": 0.9229074889867841,
+    "f1_macro": 0.8742146637852736,
+    "por_classe": [
+      {
+        "classe": "aprovado",
+        "suporte": 384,
+        "precisao": 1,
+        "recall": 0.9114583333333334,
+        "f1": 0.9536784741144414
+      },
+      {
+        "classe": "recuperacao",
+        "suporte": 56,
+        "precisao": 0.6292134831460674,
+        "recall": 1,
+        "f1": 0.7724137931034483
+      },
+      {
+        "classe": "reprovado",
+        "suporte": 14,
+        "precisao": 0.8666666666666667,
+        "recall": 0.9285714285714286,
+        "f1": 0.896551724137931
+      }
+    ],
+    "matriz_confusao": [
+      [
+        350,
+        32,
+        2
+      ],
+      [
+        0,
+        56,
+        0
+      ],
+      [
+        0,
+        1,
+        13
+      ]
+    ]
+  },
+  "validacao": {
+    "registros": 97,
+    "acuracia": 0.8762886597938144,
+    "f1_macro": 0.7965811965811967,
+    "por_classe": [
+      {
+        "classe": "aprovado",
+        "suporte": 82,
+        "precisao": 0.972972972972973,
+        "recall": 0.8780487804878049,
+        "f1": 0.923076923076923
+      },
+      {
+        "classe": "recuperacao",
+        "suporte": 12,
+        "precisao": 0.5238095238095238,
+        "recall": 0.9166666666666666,
+        "f1": 0.6666666666666667
+      },
+      {
+        "classe": "reprovado",
+        "suporte": 3,
+        "precisao": 1,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    ],
+    "matriz_confusao": [
+      [
+        72,
+        10,
+        0
+      ],
+      [
+        1,
+        11,
+        0
+      ],
+      [
+        1,
+        0,
+        2
+      ]
+    ]
+  },
+  "teste": {
+    "registros": 98,
+    "acuracia": 0.8775510204081632,
+    "f1_macro": 0.7731406202950918,
+    "por_classe": [
+      {
+        "classe": "aprovado",
+        "suporte": 83,
+        "precisao": 0.9382716049382716,
+        "recall": 0.9156626506024096,
+        "f1": 0.9268292682926829
+      },
+      {
+        "classe": "recuperacao",
+        "suporte": 12,
+        "precisao": 0.5333333333333333,
+        "recall": 0.6666666666666666,
+        "f1": 0.5925925925925926
+      },
+      {
+        "classe": "reprovado",
+        "suporte": 3,
+        "precisao": 1,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    ],
+    "matriz_confusao": [
+      [
+        76,
+        7,
+        0
+      ],
+      [
+        4,
+        8,
+        0
+      ],
+      [
+        1,
+        0,
+        2
+      ]
+    ]
+  }
+}

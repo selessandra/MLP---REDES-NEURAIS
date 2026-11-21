@@ -78,9 +78,17 @@ export class MLP {
         return -Math.log(Math.max(this.probabilidades(entradas)[indice], Number.MIN_VALUE));
     }
 
+    static carregar(arquivo) {
+        const dados = JSON.parse(fs.readFileSync(arquivo, 'utf8').replace(/^\uFEFF/, ''));
+        const modelo = new MLP(dados.arquitetura);
+        modelo.camadas = dados.camadas;
+        modelo.estado = dados.estado;
+        return modelo;
+    }
+
     salvar(destino) {
         fs.writeFileSync(destino, JSON.stringify({
-            estado: 'inicializado',
+            estado: this.estado ?? 'inicializado',
             arquitetura: this.arquitetura,
             camadas: this.camadas
         }, null, 2) + '\n');

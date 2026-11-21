@@ -1,0 +1,4996 @@
+[
+  {
+    "linha_csv": 2,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999108848328,
+      8.590116737117467e-8,
+      3.2139998991684347e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 3,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999825,
+      6.756121534112135e-15,
+      1.0771502864771976e-14
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 4,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6758811099872238,
+      0.322607547338472,
+      0.0015113426743041376
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 5,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9968311107902235,
+      0.0029577775646229534,
+      0.00021111164515366746
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 6,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999951125251532,
+      0.000004868156639125593,
+      1.9318207643628243e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 7,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999998002,
+      1.1449643141197894e-13,
+      8.536324015685328e-14
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 8,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.177974244668868,
+      0.8218191692652228,
+      0.00020658606590908998
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 9,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6924335465604633,
+      0.2909860356532925,
+      0.016580417786244105
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 10,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9087733241051502,
+      0.08818326631746204,
+      0.003043409577387649
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 11,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999979767933787,
+      0.000001767661369407508,
+      2.555452519020084e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 12,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9914844193306519,
+      0.00850321269007532,
+      0.00001236797927271137
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 13,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9892439384272016,
+      0.010667858980234273,
+      0.00008820259256402107
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 14,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9869095544009311,
+      0.012959601484979646,
+      0.0001308441140891283
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 15,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9704791883630223,
+      0.029042140569767005,
+      0.0004786710672107006
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 16,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9754121836718311,
+      0.024353828006825826,
+      0.00023398832134308742
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 17,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999999602551,
+      3.6691802191707547e-10,
+      3.053086903672882e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 18,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.0872036690986377,
+      0.908960233478598,
+      0.0038360974227642577
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 19,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5256053405411384,
+      0.4690993209673592,
+      0.005295338491502369
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 20,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.3608693017147798,
+      0.6354317464368691,
+      0.003698951848351044
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 21,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999964214781,
+      2.7248712262954268e-9,
+      8.53650690393709e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 22,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999996,
+      3.3874391650915535e-16,
+      1.1033249027839317e-16
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 23,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999585,
+      1.0201880020487825e-14,
+      3.136941780783416e-14
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 24,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999974351167725,
+      0.000002372354990178612,
+      1.925282373013623e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 25,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.973790806304844,
+      0.02508320678579947,
+      0.0011259869093565391
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 26,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999991716614371,
+      6.580800756926825e-7,
+      1.702584871436885e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 27,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999996796,
+      2.978292200517952e-13,
+      2.272773671999641e-14
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 28,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      2.626622222024962e-19,
+      3.1426609895266615e-20
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 29,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9399066643490077,
+      0.05567254602478923,
+      0.004420789626202892
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 30,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999994439988,
+      4.85347119343039e-10,
+      7.065418441307479e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 31,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.06518500247887896,
+      0.9227336090464124,
+      0.012081388474708578
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 32,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9996282470773751,
+      0.00036371105744812516,
+      0.000008041865176893498
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 33,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9845683388836565,
+      0.014646920988060638,
+      0.0007847401282828899
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 34,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999997342042,
+      2.579981076044688e-10,
+      7.797804532542735e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 35,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.40396020657373277,
+      0.5681307634800016,
+      0.02790902994626574
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 36,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1518318983720905,
+      0.8335385231723903,
+      0.014629578455519189
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 37,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      3.0568794552019557e-19,
+      1.2982177445626585e-19
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 38,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999971245104,
+      2.5726227396029454e-9,
+      3.028667660763605e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 39,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999977644967458,
+      0.0000016089843656050736,
+      6.265188885635378e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 40,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999998309654,
+      1.5842372712132847e-10,
+      1.0610833769531146e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 41,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      4.5804460841238845e-17,
+      1.7568316431143568e-17
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 42,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999751805,
+      1.5519651131326704e-11,
+      9.299808689777281e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 43,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999718347910088,
+      0.000023663754242332043,
+      0.00000450145474878728
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 44,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.8944735027052862,
+      0.09962505846504244,
+      0.005901438829671251
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 45,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999670434247052,
+      0.00002410950274247809,
+      0.000008847072552229998
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 46,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.09318739505371197,
+      0.8401527579240796,
+      0.06665984702220838
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 47,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      4.3314206967536657e-19,
+      1.4691080148061375e-19
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 48,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999966618568891,
+      0.0000033272947137582847,
+      1.0848397037877874e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 49,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.8079333964660573,
+      0.19097582319085535,
+      0.0010907803430872515
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 50,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9996034727434387,
+      0.00037365535954810984,
+      0.000022871897013131662
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 51,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9867557525859084,
+      0.011957596859933044,
+      0.001286650554158635
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 52,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999907024160041,
+      0.000007700489837887077,
+      0.000001597094157911811
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 53,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999265,
+      3.376746291415464e-14,
+      3.979112765016201e-14
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 54,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5857692116152396,
+      0.412874639344888,
+      0.001356149039872423
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 55,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999254719143363,
+      0.00007105621860419123,
+      0.0000034718670595210386
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 56,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999605,
+      3.468812255601605e-14,
+      4.934810664662557e-15
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 57,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999955160337052,
+      0.000004475695258278713,
+      8.27103658285623e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 58,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999999993751,
+      5.913216533114261e-12,
+      3.3562957334254373e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 59,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6409382348120416,
+      0.3570233673974879,
+      0.0020383977904704187
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 60,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999764838252146,
+      0.000023336039356253382,
+      1.801354291447636e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 61,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999774612142,
+      2.0650473660887354e-8,
+      1.88831204790532e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 62,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999977173846,
+      2.17313990132803e-9,
+      1.0947556229888547e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 63,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.517672520223326,
+      0.4804169540819706,
+      0.0019105256947034505
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 64,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.4385540433589865,
+      0.5601584340649367,
+      0.0012875225760767086
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 65,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9873562590778384,
+      0.011688592796688546,
+      0.000955148125472867
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 66,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999088658,
+      7.815829512541613e-11,
+      1.2975829516415184e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 67,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9992585176846936,
+      0.0006687490378575253,
+      0.0000727332774490367
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 68,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9989757627060311,
+      0.0010221101864095342,
+      0.000002127107559368117
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 69,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9971225667698943,
+      0.002746048008505446,
+      0.00013138522160034187
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 70,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.44502688021212955,
+      0.5508354290858578,
+      0.0041376907020126506
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 71,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.8980480196386059,
+      0.09694910588232844,
+      0.005002874479065554
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 72,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999910183442,
+      8.742294331638716e-9,
+      2.393614551426075e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 73,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999995434409903,
+      4.023303160512532e-7,
+      5.422869359914901e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 74,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999926202068616,
+      0.000007098088341418557,
+      2.8170479679287236e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 75,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9971367174496476,
+      0.002662542912691837,
+      0.00020073963766054675
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 76,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999988448487,
+      5.996475591591178e-10,
+      5.555037079456084e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 77,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999998241644,
+      1.6820371589092176e-10,
+      7.631884069117436e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 78,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07076354221148543,
+      0.9237041150978311,
+      0.005532342690683431
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 79,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999845375043,
+      1.1766108615834337e-8,
+      3.6963871882037752e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 80,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999761888105,
+      2.3617381527206936e-7,
+      1.9380796651420667e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 81,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.06739083261345297,
+      0.8959746083465218,
+      0.03663455904002529
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 82,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999825203058151,
+      0.000164487149568818,
+      0.000010309792280121465
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 83,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999960929,
+      2.3172954239967745e-12,
+      1.5898814853998877e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 84,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999995343448905,
+      4.2767988980887305e-7,
+      3.797521973345776e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 85,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999996146216747,
+      2.884908528305763e-7,
+      9.688747248299049e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 86,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9315794523816101,
+      0.06831456669543522,
+      0.00010598092295459071
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 87,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9992694090811531,
+      0.0007251454557816241,
+      0.0000054454630650628515
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 88,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9455668690721741,
+      0.04948784277955335,
+      0.004945288148272553
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 89,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999973256897,
+      2.4617982464695867e-9,
+      2.1251198675755687e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 90,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999786682,
+      1.8504457973188594e-11,
+      2.8272000226618697e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 91,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      2.398209379267492e-17,
+      5.968058007526423e-18
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 92,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998319221669753,
+      0.00014431315453447284,
+      0.00002376467849029943
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 93,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9982548166731737,
+      0.0015257639073096097,
+      0.00021941941951668595
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 94,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999998918883,
+      9.639243384954369e-10,
+      1.1719275989848956e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 95,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999981520395,
+      1.5104086232022668e-9,
+      3.37551664276423e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 96,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999608577631,
+      3.6638599825813417e-7,
+      2.5036370826758935e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 97,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9751899767537721,
+      0.022481811793366915,
+      0.0023282114528610613
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 98,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999914619,
+      7.332931772291018e-12,
+      1.2049448091651586e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 99,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999886117396,
+      9.103919393980316e-9,
+      2.2843411038107805e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 100,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999938147,
+      4.0870806071886635e-12,
+      2.0980581637072186e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 101,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999998445064056,
+      1.2343698655707101e-7,
+      3.205660795394004e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 102,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999938070607,
+      4.251435930285687e-9,
+      1.9415033620893743e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 103,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999998440053844,
+      9.86728392681154e-8,
+      5.7321776321478e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 104,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999765549473,
+      1.7259833498002126e-8,
+      6.185219041415059e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 105,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9039872207522616,
+      0.08279236463996306,
+      0.013220414607775297
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 106,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999291793,
+      6.383238239552372e-11,
+      6.988518224263891e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 107,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999359447688,
+      6.390282065444294e-8,
+      1.5241054410443494e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 108,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.30423633367213404,
+      0.6855990968716545,
+      0.01016456945621154
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 109,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9994830210255815,
+      0.0005155144167865631,
+      0.0000014645576317489222
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 110,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999907908782204,
+      0.00007594208320448628,
+      0.000016149134591469555
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 111,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6839857744583686,
+      0.3156623269863882,
+      0.0003518985552430912
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 112,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999996604683,
+      1.5658990850086031e-10,
+      1.8294182504984242e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 113,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999922382,
+      5.885218772928241e-12,
+      1.8765594487972316e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 114,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999027893,
+      5.485258443989934e-11,
+      4.235813476123826e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 115,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999968432,
+      2.7644070981137817e-12,
+      3.9234560930272866e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 116,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.904302388018427,
+      0.08162383485327745,
+      0.014073777128295429
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 117,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999979426737,
+      2.0344160781776003e-9,
+      2.2910212397629912e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 118,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.826876081775434,
+      0.1680410412830226,
+      0.0050828769415435385
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 119,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999811080822,
+      1.775710598489454e-7,
+      1.1348118141442116e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 120,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998900127694976,
+      0.00009678713234850894,
+      0.000013200098153835492
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 121,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9778227595008815,
+      0.021949808008424707,
+      0.00022743249069372986
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 122,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1869402476253283,
+      0.8075091844529807,
+      0.005550567921690871
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 123,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999948919678622,
+      0.000004595078361190789,
+      5.129537766211955e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 124,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1177413590078523,
+      0.8734925299552886,
+      0.008766111036858973
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 125,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6650642784459927,
+      0.32954117944519123,
+      0.00539454210881592
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 126,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999878,
+      1.0301713888077306e-14,
+      1.9034383424666887e-15
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 127,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999985715662,
+      1.2928313064049333e-9,
+      1.356023842280773e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 128,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999998102341874,
+      1.7128769256855685e-7,
+      1.8478119920945274e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 129,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999998413539769,
+      1.2824093121503126e-7,
+      3.0405091779796305e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 130,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999993262616,
+      4.889282034078545e-10,
+      1.8481020201236672e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 131,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9982296483760261,
+      0.0015248256046378236,
+      0.00024552601933616194
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 132,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999791952314766,
+      0.00001552771591392451,
+      0.000005277052609666174
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 133,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5556353169029484,
+      0.4354172165883731,
+      0.008947466508678422
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 134,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9987633877787987,
+      0.0012336379806163727,
+      0.0000029742405849489235
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 135,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999996936522,
+      2.780582881799296e-10,
+      2.8289699630811316e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 136,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9803827620832223,
+      0.018281439030070786,
+      0.0013357988867071457
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 137,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9991740052494731,
+      0.0008258887190677194,
+      1.060314592129901e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 138,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.098282789554245,
+      0.8637207023007731,
+      0.03799650814498185
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 139,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999944208584647,
+      0.000005029469072814288,
+      5.496724626970742e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 140,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999234620948,
+      7.453350138789022e-8,
+      2.004403907951413e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 141,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999335421995359,
+      0.00006460144398976542,
+      0.000001856356474325886
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 142,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999900877862586,
+      0.000009830339319611763,
+      8.18744217866226e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 143,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      2.2593649450219473e-20,
+      1.6243561836093509e-21
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 144,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998799187232424,
+      0.00011983825887556081,
+      2.4301788191322503e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 145,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.99999133238078,
+      0.000008611366891930993,
+      5.6252328069432586e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 146,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6732763029667524,
+      0.3242316555913215,
+      0.0024920414419261935
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 147,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999578751154574,
+      0.0004189908711411176,
+      0.0000022579742848674783
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 148,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999664706056,
+      3.123715355307456e-8,
+      2.29224087419347e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 149,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999831218317522,
+      0.00000811959959827601,
+      0.000008758568649545051
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 150,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999998278213,
+      1.648526475772601e-10,
+      7.326174912923753e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 151,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.99999986871464,
+      1.0944848617976921e-7,
+      2.1836873909608183e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 152,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998966728674384,
+      0.00009042329595946123,
+      0.000012903836602245174
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 153,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999734490639,
+      2.3163166250972203e-8,
+      3.387769714832093e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 154,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9991263338899581,
+      0.0008720114408743619,
+      0.000001654669167648614
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 155,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      3.309789173619749e-17,
+      1.0278018923232858e-16
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 156,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5613651496666885,
+      0.42744114442104186,
+      0.011193705912269673
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 157,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999999999716,
+      1.703575218748759e-13,
+      1.1379088857465488e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 158,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999987,
+      1.3453329757957729e-15,
+      1.0103576712069043e-16
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 159,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999995068642977,
+      4.0347705627410846e-7,
+      8.965864611615705e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 160,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999761018,
+      1.9144879061906872e-11,
+      4.7532857463132526e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 161,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999987,
+      1.068170682900715e-15,
+      1.7955455010640193e-16
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 162,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999316377525714,
+      0.00006834243562479557,
+      1.9811803838503596e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 163,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999895164,
+      8.86095682375164e-12,
+      1.6226573826290431e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 164,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999995433124086,
+      2.4133543668151e-7,
+      2.1535215480766694e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 165,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9814819498008168,
+      0.01827553307351448,
+      0.00024251712566872365
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 166,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      2.103157660833564e-17,
+      6.30983753976481e-17
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 167,
+    "real": "aprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.3315097920562162,
+      0.28544682018990075,
+      0.38304338775388297
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 168,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999982994572,
+      1.615818590883694e-9,
+      8.472415188540444e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 169,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9990897415007344,
+      0.0009035242860763208,
+      0.000006734213189425853
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 170,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999921893892219,
+      0.00007329683301834214,
+      0.000004809274762620207
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 171,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.0528925190833544,
+      0.8494744370360373,
+      0.09763304388060812
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 172,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999997370487914,
+      0.0000026130205239383014,
+      1.649156202426289e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 173,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999063578,
+      9.34966810022243e-11,
+      1.4543524890331057e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 174,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999875605514079,
+      0.00001205554718058462,
+      3.839014115623964e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 175,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999996,
+      1.3797282596219658e-16,
+      1.5460718777270216e-16
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 176,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9249424615157334,
+      0.07478459522629757,
+      0.00027294325796892193
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 177,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9989409647628825,
+      0.0010135077989781368,
+      0.00004552743813925846
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 178,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999994274599,
+      2.4209825116542387e-9,
+      3.3044185650844735e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 179,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9720692004959431,
+      0.027586225205764134,
+      0.00034457429829265506
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 180,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6735707354271808,
+      0.3235981647086117,
+      0.0028310998642075698
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 181,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      6.106702016735129e-21,
+      7.281803230434011e-20
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 182,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999969221755233,
+      0.0000029604355042726367,
+      1.1738897249163116e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 183,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999965111013,
+      2.8372018385130502e-9,
+      6.516970039698654e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 184,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.987757389495182,
+      0.012069409078217038,
+      0.00017320142660108115
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 185,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9841732597398842,
+      0.015814036177641995,
+      0.000012704082473676335
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 186,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999986053,
+      6.397501182943094e-13,
+      7.549613942382539e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 187,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999590794907,
+      3.546646037745208e-8,
+      5.454049075371317e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 188,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999894520860397,
+      0.000007485029871669386,
+      0.000003062884088661604
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 189,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999975488238,
+      2.376772285299408e-9,
+      7.440391081137957e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 190,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999729273511,
+      1.5113169104896033e-8,
+      1.1959479638506755e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 191,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.7028906812142639,
+      0.2955428946991964,
+      0.0015664240865396308
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 192,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999765178790632,
+      0.0002020983554918132,
+      0.00003272285387627932
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 193,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999974323,
+      2.1007429981909547e-12,
+      4.669988852892542e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 194,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999998711597,
+      7.694746937880494e-11,
+      5.18927711216602e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 195,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9636005235623125,
+      0.032560194479066246,
+      0.0038392819586211997
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 196,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9981426706460425,
+      0.0018423169122760831,
+      0.000015012441681496859
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 197,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.8615245950197591,
+      0.13569244800104266,
+      0.002782956979198304
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 198,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999966687361839,
+      0.00000286968941471095,
+      4.6157440133472286e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 199,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999980768696527,
+      0.0000016620905425032912,
+      2.610398048629336e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 200,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999995694029805,
+      0.0000035030483592313716,
+      8.029218356875543e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 201,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999675955,
+      3.0703338570550835e-11,
+      1.7009855958826411e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 202,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9827138477108399,
+      0.016781799997371123,
+      0.0005043522917890306
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 203,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999264850318,
+      6.604149195557662e-8,
+      7.473476425843217e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 204,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998970122615466,
+      0.0000921798634267095,
+      0.000010807875026769584
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 205,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999995283063562,
+      0.000004348421181444802,
+      3.685152565802773e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 206,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999474,
+      2.572589639052159e-14,
+      2.6916678972346467e-14
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 207,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999993364669564,
+      5.750678517498033e-7,
+      8.846519201195202e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 208,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999995193,
+      2.914298380863144e-13,
+      1.892980180997743e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 209,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999427254,
+      2.233157819126614e-11,
+      3.4943104550058415e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 210,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9486461817758354,
+      0.050688262712669775,
+      0.000665555511494786
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 211,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9792194882740289,
+      0.020373527277244476,
+      0.0004069844487265195
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 212,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9989298501106717,
+      0.0010697722182152305,
+      3.776711131613853e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 213,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998182230743541,
+      0.0001763584660259259,
+      0.0000054184596199803975
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 214,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6817981169984375,
+      0.31469965559879703,
+      0.0035022274027654288
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 215,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9995323661360591,
+      0.00045624396891375544,
+      0.000011389895027161437
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 216,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999686039085669,
+      0.00002954545805975455,
+      0.0000018506333733057117
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 217,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999998091837,
+      1.3473924464398293e-10,
+      5.6076859991168236e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 218,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.39469404166793276,
+      0.5807250792214577,
+      0.024580879110609577
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 219,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.8612554827703066,
+      0.11303090707517503,
+      0.02571361015451822
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 220,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999984,
+      1.4225274357284465e-15,
+      2.1634138860260218e-16
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 221,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999953,
+      2.1391022570272037e-15,
+      2.4862964195101162e-15
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 222,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1548441001205197,
+      0.8439380724763224,
+      0.0012178274031579405
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 223,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.39517513409228405,
+      0.5701283425903713,
+      0.03469652331734465
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 224,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999997650555227,
+      2.2723277105249907e-7,
+      7.711706324934425e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 225,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999170771334,
+      8.082576034158839e-8,
+      2.097106420600204e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 226,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999996414602297,
+      3.216343140154419e-7,
+      3.6905456391369024e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 227,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9760922289538129,
+      0.02188763728705306,
+      0.002020133759133975
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 228,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999794456824523,
+      0.000020423638649384808,
+      1.3067889817788349e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 229,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.3147050747013806,
+      0.6530317831089114,
+      0.032263142189708
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 230,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999996,
+      5.125793451630099e-16,
+      3.18425022174827e-17
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 231,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9978059360451899,
+      0.002055468050655056,
+      0.00013859590415501695
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 232,
+    "real": "aprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.014136054996609356,
+      0.25898107701642814,
+      0.7268828679869624
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 233,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999989826959,
+      9.803042281424975e-9,
+      3.699986680235776e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 234,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.13031770350490351,
+      0.8274123350318792,
+      0.04226996146321727
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 235,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.7805279288493565,
+      0.21103371673962246,
+      0.008438354411021004
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 236,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999992235305521,
+      0.000006269273247341788,
+      0.0000014954212318633732
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 237,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9178221822651035,
+      0.081513283187742,
+      0.0006645345471543112
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 238,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9694551246609932,
+      0.02600649495816368,
+      0.004538380380843282
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 239,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999973,
+      1.9956358053299058e-15,
+      7.115620393140531e-16
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 240,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9920183268587884,
+      0.00706367828927122,
+      0.000917994851940482
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 241,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999991156,
+      4.807816077604912e-13,
+      4.03583825377171e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 242,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999812995563,
+      1.3861303753155434e-8,
+      4.839139837751603e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 243,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.3387966850144643,
+      0.6393241997840186,
+      0.021879115201517228
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 244,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9935707781879665,
+      0.004087059367200306,
+      0.002342162444833253
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 245,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9799826481557007,
+      0.017379307137378158,
+      0.0026380447069211605
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 246,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.8957465194578771,
+      0.09681433723598232,
+      0.0074391433061405145
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 247,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999256806357388,
+      0.0007354253964123086,
+      0.000007768246199585927
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 248,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5247055104122649,
+      0.4261731814296984,
+      0.04912130815803668
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 249,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9964285040836373,
+      0.0035484873147129843,
+      0.00002300860164991397
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 250,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9015320807055863,
+      0.09843949903627969,
+      0.000028420258134022108
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 251,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9827304480211354,
+      0.015539865937794141,
+      0.0017296860410706781
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 252,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999819145296569,
+      0.000017573490272534822,
+      5.119800705092768e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 253,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999949673997,
+      4.9304430899696856e-9,
+      1.021572192515901e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 254,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999994154,
+      4.2417424628886456e-13,
+      1.6050377398543305e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 255,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.19739498802123542,
+      0.7991392558698982,
+      0.0034657561088664193
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 256,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999249737136,
+      6.58624041957251e-8,
+      9.163882372887174e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 257,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999998934701009,
+      1.0497925763764944e-7,
+      1.5506414202298053e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 258,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999700665115501,
+      0.000027809683498591554,
+      0.0000021238049514681608
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 259,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999999999984,
+      5.715163892687199e-15,
+      1.0295824487104136e-14
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 260,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999975018465,
+      2.2261213371784658e-9,
+      2.72032230479774e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 261,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.08678938614855533,
+      0.8651460981002241,
+      0.048064515751220595
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 262,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9978409850006104,
+      0.002090233122817943,
+      0.00006878187657173153
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 263,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999990838,
+      3.484943207494389e-13,
+      5.678126258068784e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 264,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.95312215192999,
+      0.04653050231642209,
+      0.0003473457535880399
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 265,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9984886656964755,
+      0.0014899928017167753,
+      0.000021341501807713164
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 266,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.433174911524819,
+      0.5652880790451277,
+      0.001537009430053365
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 267,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999999999376,
+      6.030753017657326e-13,
+      2.0929531126950254e-14
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 268,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9995622474802947,
+      0.0004220529720555481,
+      0.00001569954764966791
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 269,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9983439080100697,
+      0.0015471050083144858,
+      0.00010898698161567603
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 270,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.4538817290849834,
+      0.5351779935351516,
+      0.010940277379864924
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 271,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      4.5506871496859076e-20,
+      3.911949032994329e-19
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 272,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9997955352831269,
+      0.00018873697232503427,
+      0.000015727744548115066
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 273,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      5.30248408782203e-17,
+      7.996564716088954e-18
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 274,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999218657746641,
+      0.0007314594009971185,
+      0.00004988285236195722
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 275,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9962254596183545,
+      0.0036170376103931735,
+      0.00015750277125245045
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 276,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9927932540218264,
+      0.007041699804071746,
+      0.0001650461741018199
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 277,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999907315099,
+      4.431277795103444e-9,
+      4.837212296323829e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 278,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999897950823708,
+      0.00010197985945817488,
+      6.931683371626312e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 279,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999998,
+      3.259029004839399e-16,
+      7.540035503048993e-17
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 280,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1727942844209648,
+      0.8111701039141895,
+      0.016035611664845736
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 281,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.7932206423239453,
+      0.20402784067130786,
+      0.002751517004746794
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 282,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999982664141627,
+      0.000001695127968186531,
+      3.8457869185641856e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 283,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5461269263762669,
+      0.44602827021567953,
+      0.0078448034080535
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 284,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9995602750047146,
+      0.0003275603560024706,
+      0.00011216463928301066
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 285,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999063,
+      9.066040146076414e-14,
+      3.148690445966451e-15
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 286,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9976084382530405,
+      0.002335415116535056,
+      0.000056146630424481086
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 287,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.14308548432807183,
+      0.8470163572398112,
+      0.009898158432116918
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 288,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.722794213530048,
+      0.27269243354631584,
+      0.004513352923636229
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 289,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5868331626851464,
+      0.3655140060204971,
+      0.047652831294356414
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 290,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9932657275383879,
+      0.006298616791161648,
+      0.0004356556704502622
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 291,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999974034,
+      2.199161170677733e-12,
+      3.975010284885925e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 292,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998191603140223,
+      0.00017413773441589305,
+      0.000006701951561817885
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 293,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998802465865338,
+      0.00011570820576339605,
+      0.000004045207702602973
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 294,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.992982316513662,
+      0.006798724584720508,
+      0.00021895890161764117
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 295,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9975994382076812,
+      0.0021919055499362654,
+      0.0002086562423827271
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 296,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.7958926149063177,
+      0.18418530216849457,
+      0.019922082925187663
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 297,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999655454580478,
+      0.00003334246366833452,
+      0.0000011120782836854108
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 298,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9856794289280416,
+      0.014030576997673454,
+      0.0002899940742848978
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 299,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999574258971,
+      3.4911866679395114e-8,
+      7.662236372671166e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 300,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999971583,
+      1.8817715862861864e-12,
+      9.598183062537761e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 301,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998825626437479,
+      0.00011097878375468398,
+      0.000006458572497457891
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 302,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9980815654614893,
+      0.0016988340329810144,
+      0.00021960050552972542
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 303,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999978846247266,
+      0.0000016840112846551185,
+      4.3136398881947196e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 304,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      6.267773531664046e-20,
+      2.827628380279268e-19
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 305,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999997421863983,
+      0.0000024313197806525903,
+      1.4681623627426532e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 306,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.2277951097240943,
+      0.7716631474981008,
+      0.0005417427778048116
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 307,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9977348404985252,
+      0.0021990335164339485,
+      0.00006612598504104352
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 308,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9864226944238218,
+      0.01356406274600233,
+      0.000013242830176025391
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 309,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998363810958236,
+      0.00015203158522972566,
+      0.00001158731894653248
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 310,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998860557933161,
+      0.00008830297815676335,
+      0.0000256412285271389
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 311,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999436213837968,
+      0.00005344703859858668,
+      0.0000029315776045750986
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 312,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999990018238,
+      9.099288207019776e-10,
+      8.824739320832133e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 313,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9236990807855238,
+      0.07472970691896408,
+      0.0015712122955123073
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 314,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999862023309937,
+      0.000013489239262139412,
+      3.0842974415829414e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 315,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999958256438,
+      3.4432779314048627e-9,
+      7.310783446289482e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 316,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999998,
+      3.1589898931895464e-16,
+      2.7373067498102793e-17
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 317,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999753188725,
+      2.3576591382689405e-8,
+      1.104535953008926e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 318,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9970347409233842,
+      0.0026928712750564298,
+      0.00027238780155924093
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 319,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999791,
+      2.0080027260349597e-14,
+      8.872904864602583e-16
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 320,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9948445666343911,
+      0.004423583149667146,
+      0.0007318502159418342
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 321,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9968036232452726,
+      0.003111425692426097,
+      0.00008495106230124975
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 322,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999923501,
+      7.256769636306181e-12,
+      3.9300581247240074e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 323,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9995138382772503,
+      0.0004795038191319665,
+      0.0000066579036176549844
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 324,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999988317041,
+      1.1164844896567227e-9,
+      5.1811513924569834e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 325,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998774939213919,
+      0.00011970554806356885,
+      0.0000028005305444677756
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 326,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999821541333,
+      1.7724438723709157e-8,
+      1.2142790611336136e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 327,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9940220331457915,
+      0.005973127906747887,
+      0.00000483894746060284
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 328,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999970943494609,
+      0.00000267175421636598,
+      2.3389632256149859e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 329,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9929528190808908,
+      0.0065584392260393054,
+      0.0004887416930699391
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 330,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999951214136233,
+      0.000003998558775685646,
+      8.800276010210404e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 331,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999987526477254,
+      0.0000011740754595562526,
+      7.327681496591168e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 332,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5881005547585112,
+      0.40128527511064543,
+      0.01061417013084342
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 333,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999963990264772,
+      0.000003337008193521126,
+      2.6396532940213863e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 334,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999997596443908,
+      2.3028187474264775e-7,
+      1.0073734229928554e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 335,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999867064,
+      7.751393646972998e-12,
+      5.542172197852485e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 336,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999350632389,
+      5.633792354874027e-8,
+      8.59883756720757e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 337,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999922783757,
+      5.487864634672571e-9,
+      2.2337599152610322e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 338,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      1,
+      3.828547214564998e-17,
+      7.794441711230893e-17
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 339,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.7953145932906902,
+      0.19791801779584683,
+      0.0067673889134629295
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 340,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999944671062062,
+      0.0000033747862478828553,
+      0.000002158107545776116
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 341,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999889093721956,
+      0.000009552453831795999,
+      0.000001538173972674038
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 342,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999947457778,
+      4.315776591879111e-9,
+      9.384456378777342e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 343,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999982652863,
+      1.5730290285668398e-9,
+      1.6168473299248914e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 344,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9935415404133797,
+      0.006048602107073837,
+      0.0004098574795464564
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 345,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9888474227694013,
+      0.010946279846911976,
+      0.00020629738368667264
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 346,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999975778652676,
+      0.0000023859323371669127,
+      3.620239524372057e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 347,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9995208892325008,
+      0.0004703269452838928,
+      0.000008783822215209763
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 348,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.23021415205483314,
+      0.764626941328851,
+      0.005158906616316003
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 349,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.3101770022138259,
+      0.6575467272047899,
+      0.032276270581384214
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 350,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999994090827,
+      4.240672885115467e-10,
+      1.668501400883363e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 351,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999745,
+      2.2100773378921985e-14,
+      3.439809397154142e-15
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 352,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.6008408288638738,
+      0.39641887239973644,
+      0.0027402987363897976
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 353,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999972093061,
+      1.5770737907787742e-9,
+      1.2136201866380657e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 354,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.5910760325895587,
+      0.4026089923409678,
+      0.006314975069473447
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 355,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999995704769,
+      2.619583079302087e-10,
+      1.6756482556388086e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 356,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9666810418837259,
+      0.03285679792672189,
+      0.00046216018955210744
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 357,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999962561041,
+      3.6901870839790732e-9,
+      5.370876409764302e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 358,
+    "real": "aprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.48582238800269845,
+      0.4977177582276661,
+      0.016459853769635387
+    ],
+    "acerto": false
+  },
+  {
+    "linha_csv": 359,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9476059315207032,
+      0.05050710403123318,
+      0.0018869644480637908
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 360,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999959018691853,
+      0.0000035463194393665875,
+      5.518113754561487e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 361,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999797663364,
+      1.822380578172043e-8,
+      2.0098578092739673e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 362,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998264985392985,
+      0.00014643752165937254,
+      0.000027063939042071635
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 363,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999962353461,
+      3.7012433818465443e-9,
+      6.341059102392951e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 364,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999975352643,
+      1.8171920500518057e-9,
+      6.475438161266271e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 365,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999877255587208,
+      0.00001210841972355704,
+      1.6602155537217326e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 366,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999998813123,
+      6.786667897639442e-10,
+      5.082100923512244e-10
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 367,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999913868474436,
+      0.000008264559784797459,
+      3.485927714276943e-7
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 368,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.8813940333519638,
+      0.11611998159529759,
+      0.0024859850527385536
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 369,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999999534,
+      4.1742538842272094e-14,
+      4.975844648664673e-15
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 370,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999605269240818,
+      0.00003937372229931078,
+      9.935361882664175e-8
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 371,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9997887070959262,
+      0.0001545639439688182,
+      0.000056728960104834194
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 372,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999998488305,
+      1.2370331233952995e-10,
+      2.7466247727416328e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 373,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999993603,
+      4.683387654524088e-13,
+      1.7143774951924026e-13
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 374,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9629200140136277,
+      0.03300739589313967,
+      0.004072590093232814
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 375,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9886416078601785,
+      0.011256965565021725,
+      0.00010142657479960918
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 376,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999783203024,
+      2.0678274562589092e-8,
+      1.001422827249828e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 377,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999999702702,
+      2.4245758192806324e-11,
+      5.484075781534953e-12
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 378,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9998463754335006,
+      0.00011521762999504041,
+      0.00003840693650439302
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 379,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.999999999951813,
+      1.2762655546281214e-11,
+      3.54242760273008e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 380,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999797333181748,
+      0.000017270076329602272,
+      0.000002996605495624114
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 381,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999997756832,
+      2.0872548278975496e-10,
+      1.5591345636327604e-11
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 382,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9757374789763068,
+      0.024241031258843807,
+      0.000021489764849226807
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 383,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9999999569239401,
+      3.865326582881913e-8,
+      4.422794063078998e-9
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 384,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.9907316393336909,
+      0.00885102076374421,
+      0.0004173399025650508
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 385,
+    "real": "aprovado",
+    "previsto": "aprovado",
+    "probabilidades": [
+      0.996303339189324,
+      0.0033246465088084803,
+      0.00037201430186762486
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 386,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.16687201233417887,
+      0.821747333391956,
+      0.011380654273865184
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 387,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.09978817140720425,
+      0.8855724450836752,
+      0.014639383509120363
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 388,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07851864830941666,
+      0.8749645788584122,
+      0.04651677283217106
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 389,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.13189250871680944,
+      0.8590619238611265,
+      0.009045567422064079
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 390,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07419002434550898,
+      0.6765169210647733,
+      0.24929305458971757
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 391,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.19896175950513245,
+      0.7678714854177927,
+      0.033166755077074984
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 392,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07646283960150566,
+      0.8743768769321223,
+      0.04916028346637192
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 393,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.14865825020278908,
+      0.8201366016036633,
+      0.03120514819354756
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 394,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.051510459225580875,
+      0.9336994500829862,
+      0.014790090691432806
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 395,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1271692687498923,
+      0.8545001704398358,
+      0.01833056081027185
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 396,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.0642320119262367,
+      0.902522619274544,
+      0.033245368799219195
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 397,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1978410983982854,
+      0.7721529336349503,
+      0.03000596796676431
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 398,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.20940784052988412,
+      0.7644278459472192,
+      0.026164313522896786
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 399,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07544869851121466,
+      0.8758498847588592,
+      0.04870141672992622
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 400,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07271713881471338,
+      0.8827083221663907,
+      0.04457453901889577
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 401,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.10318493472818274,
+      0.8859227784257633,
+      0.010892286846054047
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 402,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07788680086373727,
+      0.8788306291215385,
+      0.04328257001472412
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 403,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.08920488248642047,
+      0.8713944651627991,
+      0.03940065235078034
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 404,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.09704385825551663,
+      0.8601667288221392,
+      0.04278941292234417
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 405,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.14252942336070598,
+      0.856858877169163,
+      0.0006116994701309636
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 406,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.20670317890617812,
+      0.7480325206891866,
+      0.045264300404635326
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 407,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.10344825882692195,
+      0.8732125828446164,
+      0.02333915832846168
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 408,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.2340954671376976,
+      0.757915657006415,
+      0.007988875855887482
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 409,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1786224314010741,
+      0.8194517961515185,
+      0.0019257724474074929
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 410,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.0850546256033205,
+      0.8846032099029653,
+      0.030342164493714144
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 411,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.11519904743579057,
+      0.8801538673798556,
+      0.0046470851843538425
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 412,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.11637314142469196,
+      0.8828830412235318,
+      0.0007438173517762874
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 413,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.14408871278847601,
+      0.831493747833197,
+      0.024417539378327118
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 414,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.25267392184649495,
+      0.7214544555925481,
+      0.025871622560956882
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 415,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.06340250190637695,
+      0.9046327627704351,
+      0.03196473532318796
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 416,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.13857602257293444,
+      0.8443547336896825,
+      0.017069243737383197
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 417,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07447634657257765,
+      0.8824944036179468,
+      0.043029249809475555
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 418,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07243658855060912,
+      0.9211143442253725,
+      0.006449067224018258
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 419,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.09925710455253245,
+      0.8779803494329738,
+      0.022762546014493755
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 420,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.23439294774243488,
+      0.7274896376488101,
+      0.03811741460875499
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 421,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.15826476036094136,
+      0.8143225661453252,
+      0.027412673493733546
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 422,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.1615481805282975,
+      0.8324636630398431,
+      0.005988156431859328
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 423,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.22702502843770211,
+      0.7620201681743557,
+      0.01095480338794224
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 424,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.05870672515042522,
+      0.9143179343252106,
+      0.026975340524364063
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 425,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.13670380710410845,
+      0.8606369538954357,
+      0.0026592390004559555
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 426,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.09892237307494717,
+      0.8927284446280874,
+      0.008349182296965293
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 427,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.06558226883463208,
+      0.9050649431308815,
+      0.02935278803448624
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 428,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.15958873178685085,
+      0.8360580110779854,
+      0.004353257135163589
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 429,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.06636565033275564,
+      0.8977418167772313,
+      0.035892532890012936
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 430,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.12193148564009476,
+      0.8337328174073408,
+      0.04433569695256445
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 431,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.09136936046427481,
+      0.8846481869586194,
+      0.023982452577105923
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 432,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.0911601767714138,
+      0.8904628814749549,
+      0.01837694175363131
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 433,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07475712026433069,
+      0.8724349241077428,
+      0.052807955627926534
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 434,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.13632343359062316,
+      0.8469453948008099,
+      0.016731171608567002
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 435,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.0748926961224642,
+      0.8772660337195254,
+      0.0478412701580103
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 436,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07624323872141205,
+      0.8803828696624464,
+      0.04337389161614148
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 437,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.05923044988532398,
+      0.9132348447868525,
+      0.02753470532782352
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 438,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.28198523392457964,
+      0.7171781312540225,
+      0.0008366348213978477
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 439,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.05120050145883927,
+      0.9407764284569562,
+      0.008023070084204498
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 440,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.3013076188375835,
+      0.6811700326076399,
+      0.017522348554776548
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 441,
+    "real": "recuperacao",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.07851864830941666,
+      0.8749645788584122,
+      0.04651677283217106
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 442,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      9.488042595231113e-7,
+      0.00004938879355440601,
+      0.9999496624021861
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 443,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.0016640545965314142,
+      0.048276442134944135,
+      0.9500595032685245
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 444,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.00007607838683288164,
+      0.00269161691182018,
+      0.9972323047013469
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 445,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.0011943134051173388,
+      0.029248282737322735,
+      0.96955740385756
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 446,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.000322583827926214,
+      0.00908654478393013,
+      0.9905908713881436
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 447,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.0002552939314815166,
+      0.0007384034487111528,
+      0.9990063026198073
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 448,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.0000014095976744868011,
+      0.00007527656971611696,
+      0.9999233138326094
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 449,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.017208364781106603,
+      0.349171766042052,
+      0.6336198691768414
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 450,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.00008720118738315494,
+      0.002820549588143465,
+      0.9970922492244734
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 451,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.0020660486644483262,
+      0.0030912571857282032,
+      0.9948426941498235
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 452,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.00015730192394046764,
+      0.005263678211009346,
+      0.9945790198650503
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 453,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.00023401782662909248,
+      0.006819858814006889,
+      0.9929461233593639
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 454,
+    "real": "reprovado",
+    "previsto": "reprovado",
+    "probabilidades": [
+      0.003035544187465919,
+      0.013834839725524795,
+      0.9831296160870093
+    ],
+    "acerto": true
+  },
+  {
+    "linha_csv": 455,
+    "real": "reprovado",
+    "previsto": "recuperacao",
+    "probabilidades": [
+      0.24458650484126493,
+      0.576588271448976,
+      0.17882522370975917
+    ],
+    "acerto": false
+  }
+]
