@@ -1,0 +1,24 @@
+Arquitetura da MLP
+
+A rede recebe 79 entradas e utiliza duas camadas ocultas, com 16 e 8 neurônios, seguidas de três saídas. Possui 1.443 parâmetros treináveis, incluindo os vieses.
+
+Cada entrada corresponde a uma coluna dos CSVs normalizados. A ordem está registrada em arquitetura.json. O alvo é situacao_regra_didatica. As saídas seguem a ordem aprovado, recuperacao e reprovado.
+
+A MLP foi escolhida para aprender relações não lineares entre as características tabulares dos estudantes. As camadas pequenas limitam a quantidade de parâmetros diante dos 454 exemplos de treino. Essa configuração é uma escolha inicial e deverá ser avaliada na validação.
+
+As camadas ocultas usam ReLU, que retorna o maior valor entre zero e a entrada. A saída usa softmax para produzir três probabilidades cuja soma é 1. A classe prevista será a de maior probabilidade.
+
+A função de perda é a entropia cruzada multiclasse, calculada a partir da probabilidade atribuída à classe correta. Penaliza previsões confiantes para classes erradas.
+
+As classes do treino estão desbalanceadas, com 384 aprovados, 56 em recuperação e 14 reprovados. O ajuste deverá considerar F1 macro e recall por classe na validação. A acurácia isolada favorece a classe majoritária.
+
+A implementação executável está em mlp.mjs e usa JavaScript com Node.js, disponível no ambiente, sem dependências externas. Inclui inicialização dos pesos, propagação pelas camadas, previsão e cálculo da perda. O treinamento é uma etapa posterior. Nenhum resultado de desempenho da MLP foi obtido.
+
+Os dados complementados incluem simulações e o alvo foi derivado de G3 por uma regra didática. A arquitetura não elimina essas limitações nem comprova aplicação em estudantes reais.
+
+Uso
+
+Na raiz do projeto, execute node modelo/mlp.mjs para gerar pesos_iniciais.json com semente 42. Os pesos usam inicialização normal com variância 2 / número de entradas, e vieses zero. Softmax subtrai o maior logit para estabilidade numérica.
+
+Para integrar, importe MLP de modelo/mlp.mjs e passe a configuração de arquitetura.json ao construtor. probabilidades(vetor) retorna as três probabilidades. prever(vetor) retorna a classe e as probabilidades. perda(vetor, classeCorreta) calcula a entropia cruzada de um exemplo. Os pesos iniciais precisam de treinamento antes de uso preditivo.
+
