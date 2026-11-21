@@ -1,42 +1,167 @@
-# Previsão de desempenho acadêmico
+# Detecção de anomalias no desempenho acadêmico
 
-O projeto investiga o uso de informações acadêmicas e hábitos de estudo para prever uma situação acadêmica didática e apoiar o acompanhamento de estudantes.
+Trabalho final da disciplina de Redes Neurais. O projeto utiliza um autoencoder para identificar combinações pouco comuns de notas, faltas e tempo de estudo. Os registros sinalizados podem ajudar professores e coordenadores a selecionar casos para análise individual.
 
-A fonte é Student Performance, de Paulo Cortez, disponibilizada pela UCI, DOI 10.24432/C5TG7T, licença CC BY 4.0. O arquivo de Português possui 649 registros. As colunas originais foram complementadas com simulações identificadas nos nomes. As regras adotadas incluem 120 aulas assumidas, atividades e participação estimadas e horas sorteadas nas faixas de studytime. A situação usa G3 >= 10 para aprovado, 7 a 9 para recuperação e abaixo de 7 para reprovado. Essas hipóteses são didáticas.
+[Abrir o projeto no Google Colab](https://colab.research.google.com/drive/1a6NlCa_BVn8nirYoUpJyn21ACXJiDNtM)
 
-## Execução
+## Integrantes
 
-Use PowerShell 7 e Node.js, sem pacotes externos, na raiz do repositório.
+| Nome | Matrícula |
+| --- | --- |
+| Alan Sérgio Rodrigues de Carvalho | 01697157 |
+| Alessandra Júlia S. Mendonça | 01710330 |
+| Alfred Manoel Vicente Silva da Rocha | 01695802 |
+| Jhonas Xavier dos Santos Silva | 01694333 |
+| Pedro Artur R. F. Nogueira | 01705061 |
+| Guilherme De Oliveira Lopes Silva | 01699872 |
+| Marcos Emanuel Celestino Tavares | 01718690 |
+
+## Problema e objetivo
+
+Uma queda acentuada de notas ou uma combinação incomum de frequência e desempenho pode justificar uma revisão do histórico do estudante. O objetivo é localizar esses perfis a partir dos padrões encontrados na base.
+
+O sistema recebe quatro informações acadêmicas, calcula uma pontuação e sinaliza os registros que ultrapassam o limite definido na validação. Para cada caso, apresenta os valores informados e a variável que mais contribuiu para o erro de reconstrução. A interpretação do sinal depende do contexto do estudante.
+
+## Dados
+
+Utilizamos o arquivo `student-por.csv`, do conjunto **Student Performance**, com 649 registros de estudantes de duas escolas portuguesas. A fonte reúne informações obtidas por registros escolares e questionários.
+
+| Entrada | Significado |
+| --- | --- |
+| `G1` | Nota do primeiro período, de 0 a 20 |
+| `G2` | Nota do segundo período, de 0 a 20 |
+| `absences` | Quantidade de faltas |
+| `studytime` | Faixa semanal de estudo, de 1 a 4 |
+
+As faixas de estudo representam menos de 2 horas, de 2 a 5 horas, de 5 a 10 horas e mais de 10 horas por semana.
+
+O detector usa essas quatro colunas originais. Os campos simulados existentes na versão complementada da base ficam fora das entradas, assim como a nota final `G3` e a situação acadêmica derivada dela.
+
+A documentação da origem está disponível na [UCI](https://archive.ics.uci.edu/dataset/320/student+performance). A cópia consultada está no [Kaggle](https://www.kaggle.com/datasets/larsen0966/student-performance-data-set). Referência de Paulo Cortez, 2008, DOI 10.24432/C5TG7T, licença CC BY 4.0.
+
+## Preparação
+
+A limpeza conferiu valores ausentes, duplicados, categorias, faixas numéricas e consistência dos campos complementados. Os 649 registros foram mantidos.
+
+| Divisão | Registros |
+| --- | ---: |
+| Treino | 454 |
+| Validação | 97 |
+| Teste | 98 |
+
+As divisões foram feitas com semente 42 e preservadas na adaptação para anomalias. A estratificação por situação acadêmica vem da etapa inicial de classificação.
+
+Cada estudante é representado por um vetor de quatro números, na ordem `G1`, `G2`, `absences` e `studytime`. A padronização subtrai a média e divide pelo desvio de cada variável, calculados somente no treino. Os mesmos parâmetros são aplicados à validação e ao teste.
+
+## Modelo
+
+O autoencoder possui quatro entradas, uma camada oculta com dois neurônios e quatro saídas.
+
+```text
+G1, G2, faltas e estudo → 2 neurônios → reconstrução das 4 entradas
+```
+
+A camada reduzida foi escolhida para aprender uma representação compacta das relações entre as variáveis. Ela usa tangente hiperbólica (`tanh`), que permite representar relações não lineares. A saída é linear para reconstruir os valores padronizados.
+
+A função de perda é o erro quadrático médio entre a entrada e sua reconstrução. O treinamento usa retropropagação e descida do gradiente estocástica.
+
+| Configuração | Valor |
+| --- | --- |
+| Taxa de aprendizado | 0,005 |
+| Tamanho do lote | 1 |
+| Limite de épocas | 1.000 |
+| Parada sem melhora na validação | 60 épocas |
+| Semente | 42 |
+| Épocas executadas | 104 |
+| Época selecionada | 44 |
+
+Os pesos da época com menor perda de validação são restaurados. O erro médio de reconstrução também serve como pontuação de anomalia. Um registro é sinalizado quando sua pontuação supera o percentil 95 das pontuações da validação.
+
+## Baseline e avaliação
+
+A baseline calcula a média dos quadrados das quatro entradas padronizadas, como medida de distância ao perfil médio. Ela usa seu próprio limite no percentil 95 da validação. Os dois métodos recebem as mesmas entradas e divisões.
+
+A base não possui rótulos confirmados de anomalia. Por isso, avaliamos as pontuações dos registros originais e a resposta a alterações controladas em cópias do teste. Essas cópias ficam fora do treinamento e da escolha dos limites.
+
+| Cenário controlado | Cópias avaliadas | Autoencoder | Baseline |
+| --- | ---: | ---: | ---: |
+| Queda acentuada de G2 | 46 | 100% | 100% |
+| Muitas faltas com notas altas | 12 | 100% | 100% |
+| Maior faixa de estudo com notas baixas | 16 | 62,5% | 81,25% |
+
+Os percentuais representam a proporção de cópias sinalizadas em cada cenário. Um estudante pode aparecer em mais de um cenário, avaliado separadamente.
+
+O autoencoder empatou com a baseline nos dois primeiros cenários e detectou menos alterações no terceiro. O experimento não demonstrou vantagem da rede sobre a solução simples.
+
+Nos registros originais de teste, o autoencoder sinalizou **9 de 98 casos**, e a baseline sinalizou **7 de 98**. Essas quantidades indicam casos para revisão. Acurácia, F1 e falsos positivos de anomalias reais exigiriam rótulos independentes.
+
+## Retorno e demonstração
+
+O notebook reúne a execução do treinamento, o gráfico das perdas, a comparação com a baseline e uma tabela dos registros sinalizados. Essa sequência pode ser usada na demonstração do projeto.
+
+Cada caso é identificado pela linha do CSV de teste e mostra notas, faltas, faixa de estudo, pontuação e principal contribuição para o sinal. Por exemplo, o registro da linha 98 apresenta `G1 = 9`, `G2 = 0` e nenhuma falta. A nota G2 responde por 53,4% do erro total de reconstrução.
+
+A contribuição de cada variável é calculada pela sua parcela no erro quadrático padronizado. Ela ajuda a explicar a resposta do modelo. A causa real do perfil exige análise do histórico escolar.
+
+As cópias alteradas também permitem mostrar exemplos detectados e alterações que passaram abaixo do limite. No terceiro cenário, o autoencoder deixou de sinalizar 6 das 16 cópias.
+
+## Como executar
+
+### Google Colab
+
+1. Abra o [notebook no Colab](https://colab.research.google.com/drive/1a6NlCa_BVn8nirYoUpJyn21ACXJiDNtM).
+2. Para trabalhar em uma versão própria, salve uma cópia no seu Google Drive.
+3. Use um ambiente Python 3 com CPU e selecione **Executar tudo**.
+4. Consulte os resultados, o gráfico e a tabela dos casos sinalizados ao final.
+
+O notebook inclui os dados necessários e executa o detector JavaScript com Node.js. Também é possível baixar [anomalias_academicas.ipynb](notebooks/anomalias_academicas.ipynb) deste repositório e fazer upload no Colab.
+
+A execução completa foi conferida no Colab em 21/11/2026. As verificações de gradientes, normalização, percentil e consistência dos resultados foram concluídas.
+
+### Execução local
+
+Requer Node.js 18 ou superior e Python 3 para o relatório explicativo. A rede e a baseline utilizam recursos nativos do Node.js.
+
+Na raiz do repositório, execute na ordem abaixo.
+
+```sh
+node scripts/anomalias.mjs
+node scripts/verificar_anomalias.mjs
+python scripts/explicar_anomalias.py
+```
+
+Os arquivos de treino, validação e teste já estão em `dados/`. Para refazer a limpeza e a divisão a partir da base complementada, use PowerShell 7.
 
 ```powershell
 pwsh -File scripts/limpar_dados.ps1
 pwsh -File scripts/separar_dados.ps1
-pwsh -File scripts/normalizar_baseline.ps1
-node scripts/treinar_mlp.mjs
 ```
 
-A limpeza verifica faixas, categorias e consistência das simulações. A divisão estratificada usa semente 42, com 454 registros de treino, 97 de validação e 98 de teste.
+## Arquivos principais
 
-Cada aluno é um vetor de 79 números. As variáveis numéricas usam média e desvio do treino. As categorias usam one-hot aprendido no treino, incluindo uma coluna para categoria desconhecida. O alvo é separado das entradas. G3 e as constantes de identificação ficam fora do vetor.
+| Caminho | Conteúdo |
+| --- | --- |
+| `notebooks/anomalias_academicas.ipynb` | Notebook com dados e execução completa |
+| `scripts/anomalias.mjs` | Autoencoder, baseline, treinamento e avaliação |
+| `scripts/verificar_anomalias.mjs` | Verificações numéricas |
+| `scripts/explicar_anomalias.py` | Relatório dos casos sinalizados |
+| `documentacao/adaptacao_anomalias.txt` | Definição do problema e protocolo de avaliação |
+| `resultados/anomalias/resumo.json` | Métricas e configurações |
+| `resultados/anomalias/modelo.json` | Pesos, escala e limites |
+| `resultados/anomalias/historico.json` | Perdas por época |
+| `resultados/anomalias/avaliacao_controlada.json` | Registros originais e cópias alteradas |
+| `resultados/anomalias/anomalias_explicadas.txt` | Casos sinalizados com explicações |
+| `resultados/anomalias/anomalias_explicadas.json` | Contribuições e reconstruções por variável |
 
-A arquitetura 79 → 16 → 8 → 3 está implementada em modelo/mlp.mjs e justificada em modelo/arquitetura.txt. Usa ReLU nas camadas ocultas e softmax na saída. O treinamento usa entropia cruzada ponderada e retropropagação. A melhor época é selecionada pelo F1 macro na validação.
+O repositório também mantém os arquivos da etapa inicial de classificação acadêmica. Os resultados da tarefa de anomalias estão em `resultados/anomalias/`.
 
-Os pesos treinados ficam em modelo/pesos_treinados.json. Para carregar e prever um vetor já normalizado, use MLP.carregar(arquivo).prever(vetor), importando MLP de modelo/mlp.mjs. A ordem dos valores está em arquitetura.json. Uma nova entrada deve usar os parâmetros de resultados/normalizacao.json.
+## Limitações e próximos passos
 
-Resultados, comparação, acertos, erros e limitações estão em resultados/analise_mlp.txt. O histórico por época está em resultados/historico_mlp.json. As métricas por classe e matrizes de confusão estão em resultados/mlp_metricas.json.
+- A base é pequena e representa o contexto de duas escolas portuguesas.
+- As alterações controladas são hipóteses didáticas. Algumas combinações podem ser plausíveis.
+- A faixa de estudo é ordinal, e sua padronização aproxima a distância entre categorias.
+- A mesma validação seleciona os pesos e calibra o limite, reduzindo a independência entre essas escolhas.
+- O período de coleta das faltas exige confirmação antes de usar o detector como alerta antecipado.
+- As pontuações exigem revisão contextual. Uma aplicação institucional deve preservar a privacidade e evitar decisões automáticas sobre os estudantes.
 
-O teste obteve 87,76% de acurácia e F1 macro 0,773. A baseline da classe majoritária obteve 84,69% e 0,306. Os campos simulados, a amostra pequena e a ausência de confirmação temporal limitam a interpretação prática.
-
-## Detecção de anomalias
-
-A adaptação usa um autoencoder 4 → 2 → 4 com G1, G2, faltas e faixa de estudo originais. Execute `node scripts/anomalias.mjs` para treinar e avaliar e `node scripts/verificar_anomalias.mjs` para conferir os cálculos. O protocolo está em documentacao/adaptacao_anomalias.txt. Os resultados e limites estão em resultados/anomalias/.
-
-A análise completa está em resultados/anomalias/analise.txt. O detector empatou com a baseline em dois cenários controlados e ficou abaixo dela no terceiro. Os registros originais não possuem anomalias confirmadas. A implementação local está disponível, e o notebook Colab permanece pendente.
-
-## Google Colab
-
-Abra https://colab.research.google.com/drive/1a6NlCa_BVn8nirYoUpJyn21ACXJiDNtM ou faça upload de notebooks/anomalias_academicas.ipynb. Selecione Executar tudo em um ambiente Python 3 com CPU. O notebook inclui os CSVs das quatro entradas originais e reutiliza o código JavaScript do detector via Node.js. Inclui treinamento, avaliação, gráfico das perdas e verificações numéricas. Os dados incorporados preservam as divisões locais.
-
-Execução conferida no Google Colab em 21/11/2026, com Node.js v22.23.4. Todas as células concluíram, incluindo gráfico e verificações. Foram reproduzidas 104 épocas, seleção da época 44 e os resultados locais. A versão local do notebook contém o código e os dados incorporados. As saídas da execução estão no notebook do Google Drive.
-
-Para detalhar os sinais, execute `python scripts/explicar_anomalias.py` após o treinamento. Os arquivos resultados/anomalias/anomalias_explicadas.json e anomalias_explicadas.txt mostram a linha do teste, entradas, pontuação, limite e contribuições por variável. A contribuição é a parcela do erro quadrático padronizado. A reconstrução e o sinal exigem interpretação contextual. O notebook também apresenta essa tabela.
+A continuidade do trabalho inclui avaliar novos exemplos e obter uma revisão independente dos casos sinalizados, permitindo medir a utilidade do detector em situações reais.
