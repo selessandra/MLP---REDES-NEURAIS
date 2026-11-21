@@ -1,0 +1,362 @@
+[
+  {
+    "linha_teste_csv": 98,
+    "G1": 9,
+    "G2": 0,
+    "faltas": 0,
+    "estudo_semanal": "2 a 5 h",
+    "pontuacao": 2.242634933906981,
+    "limite": 0.7029524686441498,
+    "explicacao": "Nota G2 abaixo da reconstrução, com 53.4% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Nota G2",
+        "valor": 0,
+        "reconstrucao": 6.179866555761177,
+        "erro_padronizado_quadrado": 4.789505529760369,
+        "contribuicao_percentual": 53.39149784642373
+      },
+      {
+        "variavel": "Faltas",
+        "valor": 0,
+        "reconstrucao": 7.4244545975308185,
+        "erro_padronizado_quadrado": 2.3452312442259164,
+        "contribuicao_percentual": 26.143702757499167
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 9,
+        "reconstrucao": 6.071067786328147,
+        "erro_padronizado_quadrado": 1.1249889572573641,
+        "contribuicao_percentual": 12.540928309913077
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 2,
+        "reconstrucao": 1.2940570867522165,
+        "erro_padronizado_quadrado": 0.7108140043842759,
+        "contribuicao_percentual": 7.923871086164025
+      }
+    ]
+  },
+  {
+    "linha_teste_csv": 99,
+    "G1": 7,
+    "G2": 0,
+    "faltas": 0,
+    "estudo_semanal": "2 a 5 h",
+    "pontuacao": 1.9352422310784456,
+    "limite": 0.7029524686441498,
+    "explicacao": "Nota G2 abaixo da reconstrução, com 52.1% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Nota G2",
+        "valor": 0,
+        "reconstrucao": 5.670512413638538,
+        "erro_padronizado_quadrado": 4.032525250024928,
+        "contribuicao_percentual": 52.09328818462349
+      },
+      {
+        "variavel": "Faltas",
+        "valor": 0,
+        "reconstrucao": 7.930393407631751,
+        "erro_padronizado_quadrado": 2.6757530194645325,
+        "contribuicao_percentual": 34.56612532134317
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 2,
+        "reconstrucao": 1.2679616896232768,
+        "erro_padronizado_quadrado": 0.7643362018226473,
+        "contribuicao_percentual": 9.873908670811565
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 7,
+        "reconstrucao": 5.569494295523951,
+        "erro_padronizado_quadrado": 0.26835445300167515,
+        "contribuicao_percentual": 3.466677823221776
+      }
+    ]
+  },
+  {
+    "linha_teste_csv": 35,
+    "G1": 13,
+    "G2": 14,
+    "faltas": 13,
+    "estudo_semanal": "menos de 2 h",
+    "pontuacao": 1.4997903191209607,
+    "limite": 0.7029524686441498,
+    "explicacao": "Faltas acima da reconstrução, com 54.1% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Faltas",
+        "valor": 13,
+        "reconstrucao": 4.264390506535515,
+        "erro_padronizado_quadrado": 3.2467061456011885,
+        "contribuicao_percentual": 54.11933428641061
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 1,
+        "reconstrucao": 2.1706660127505306,
+        "erro_padronizado_quadrado": 1.9547122282782197,
+        "contribuicao_percentual": 32.58309183886273
+      },
+      {
+        "variavel": "Nota G2",
+        "valor": 14,
+        "reconstrucao": 11.848208759512644,
+        "erro_padronizado_quadrado": 0.5806745003616567,
+        "contribuicao_percentual": 9.679261376716893
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 13,
+        "reconstrucao": 11.713429776985167,
+        "erro_padronizado_quadrado": 0.21706840224277682,
+        "contribuicao_percentual": 3.6183124980097614
+      }
+    ]
+  },
+  {
+    "linha_teste_csv": 21,
+    "G1": 15,
+    "G2": 13,
+    "faltas": 12,
+    "estudo_semanal": "menos de 2 h",
+    "pontuacao": 1.4975656598524134,
+    "limite": 0.7029524686441498,
+    "explicacao": "Faltas acima da reconstrução, com 51.9% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Faltas",
+        "valor": 12,
+        "reconstrucao": 3.4511536098280624,
+        "erro_padronizado_quadrado": 3.109364149839051,
+        "contribuicao_percentual": 51.9069753199583
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 1,
+        "reconstrucao": 2.150335312614566,
+        "erro_padronizado_quadrado": 1.887407661479546,
+        "contribuicao_percentual": 31.507928367988086
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 15,
+        "reconstrucao": 12.300645705301903,
+        "erro_padronizado_quadrado": 0.9555411589598871,
+        "contribuicao_percentual": 15.951573686826805
+      },
+      {
+        "variavel": "Nota G2",
+        "valor": 13,
+        "reconstrucao": 12.44990492757771,
+        "erro_padronizado_quadrado": 0.03794966913116956,
+        "contribuicao_percentual": 0.633522625226822
+      }
+    ]
+  },
+  {
+    "linha_teste_csv": 86,
+    "G1": 9,
+    "G2": 9,
+    "faltas": 16,
+    "estudo_semanal": "menos de 2 h",
+    "pontuacao": 1.0573857566052451,
+    "limite": 0.7029524686441498,
+    "explicacao": "Faltas acima da reconstrução, com 55.6% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Faltas",
+        "valor": 16,
+        "reconstrucao": 8.56468879279329,
+        "erro_padronizado_quadrado": 2.352095014646215,
+        "contribuicao_percentual": 55.611090842514656
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 1,
+        "reconstrucao": 1.9242629195112737,
+        "erro_padronizado_quadrado": 1.218450442038565,
+        "contribuicao_percentual": 28.808087172235528
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 9,
+        "reconstrucao": 7.363719406229334,
+        "erro_padronizado_quadrado": 0.3511115998106943,
+        "contribuicao_percentual": 8.301407447976791
+      },
+      {
+        "variavel": "Nota G2",
+        "valor": 9,
+        "reconstrucao": 7.433145362739481,
+        "erro_padronizado_quadrado": 0.3078859699255059,
+        "contribuicao_percentual": 7.279414537273015
+      }
+    ]
+  },
+  {
+    "linha_teste_csv": 55,
+    "G1": 12,
+    "G2": 13,
+    "faltas": 11,
+    "estudo_semanal": "menos de 2 h",
+    "pontuacao": 0.9548484264469432,
+    "limite": 0.7029524686441498,
+    "explicacao": "Faltas acima da reconstrução, com 54.3% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Faltas",
+        "valor": 11,
+        "reconstrucao": 4.020048933507633,
+        "erro_padronizado_quadrado": 2.072818689676765,
+        "contribuicao_percentual": 54.2708830078368
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 1,
+        "reconstrucao": 1.9038730154139654,
+        "erro_padronizado_quadrado": 1.1652836473321113,
+        "contribuicao_percentual": 30.50964988412381
+      },
+      {
+        "variavel": "Nota G2",
+        "valor": 13,
+        "reconstrucao": 11.12051153882812,
+        "erro_padronizado_quadrado": 0.4430082478919205,
+        "contribuicao_percentual": 11.598915482857963
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 12,
+        "reconstrucao": 10.97311980681401,
+        "erro_padronizado_quadrado": 0.13828312088697609,
+        "contribuicao_percentual": 3.6205516251814203
+      }
+    ]
+  },
+  {
+    "linha_teste_csv": 27,
+    "G1": 13,
+    "G2": 12,
+    "faltas": 15,
+    "estudo_semanal": "2 a 5 h",
+    "pontuacao": 0.928548903065157,
+    "limite": 0.7029524686441498,
+    "explicacao": "Faltas acima da reconstrução, com 48.0% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Faltas",
+        "valor": 15,
+        "reconstrucao": 8.529631343081247,
+        "erro_padronizado_quadrado": 1.7812078953588002,
+        "contribuicao_percentual": 47.95676052922469
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 2,
+        "reconstrucao": 2.9788651893616747,
+        "erro_padronizado_quadrado": 1.3666665929548771,
+        "contribuicao_percentual": 36.79576241066802
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 13,
+        "reconstrucao": 11.100807058149181,
+        "erro_padronizado_quadrado": 0.47300724569301844,
+        "contribuicao_percentual": 12.73511939251699
+      },
+      {
+        "variavel": "Nota G2",
+        "valor": 12,
+        "reconstrucao": 11.137405116805395,
+        "erro_padronizado_quadrado": 0.09331387825393252,
+        "contribuicao_percentual": 2.5123576675903037
+      }
+    ]
+  },
+  {
+    "linha_teste_csv": 66,
+    "G1": 12,
+    "G2": 10,
+    "faltas": 11,
+    "estudo_semanal": "menos de 2 h",
+    "pontuacao": 0.7717923937517748,
+    "limite": 0.7029524686441498,
+    "explicacao": "Faltas acima da reconstrução, com 45.0% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Faltas",
+        "valor": 11,
+        "reconstrucao": 5.287039561899976,
+        "erro_padronizado_quadrado": 1.3886058581539844,
+        "contribuicao_percentual": 44.979902283171185
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 1,
+        "reconstrucao": 1.7742153567321046,
+        "erro_padronizado_quadrado": 0.8549493230464611,
+        "contribuicao_percentual": 27.693630112446773
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 12,
+        "reconstrucao": 9.490908632880972,
+        "erro_padronizado_quadrado": 0.8255864769553757,
+        "contribuicao_percentual": 26.74250496762806
+      },
+      {
+        "variavel": "Nota G2",
+        "valor": 10,
+        "reconstrucao": 9.620853954221348,
+        "erro_padronizado_quadrado": 0.018027916851278275,
+        "contribuicao_percentual": 0.5839626367539857
+      }
+    ]
+  },
+  {
+    "linha_teste_csv": 87,
+    "G1": 9,
+    "G2": 9,
+    "faltas": 14,
+    "estudo_semanal": "menos de 2 h",
+    "pontuacao": 0.7665993287247419,
+    "limite": 0.7029524686441498,
+    "explicacao": "Faltas acima da reconstrução, com 51.9% do erro total.",
+    "detalhes": [
+      {
+        "variavel": "Faltas",
+        "valor": 14,
+        "reconstrucao": 7.881128003071304,
+        "erro_padronizado_quadrado": 1.5929395533456425,
+        "contribuicao_percentual": 51.94824381060767
+      },
+      {
+        "variavel": "Faixa de estudo",
+        "valor": 1,
+        "reconstrucao": 1.8008450817987276,
+        "erro_padronizado_quadrado": 0.9147740487340913,
+        "contribuicao_percentual": 29.832208771166094
+      },
+      {
+        "variavel": "Nota G1",
+        "valor": 9,
+        "reconstrucao": 7.4833754345497745,
+        "erro_padronizado_quadrado": 0.30163781806144974,
+        "contribuicao_percentual": 9.836879800143844
+      },
+      {
+        "variavel": "Nota G2",
+        "valor": 9,
+        "reconstrucao": 7.568342628045656,
+        "erro_padronizado_quadrado": 0.2570458947577836,
+        "contribuicao_percentual": 8.38266761808239
+      }
+    ]
+  }
+]

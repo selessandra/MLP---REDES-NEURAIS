@@ -1,0 +1,14 @@
+Registros sinalizados para revisão
+Limite de pontuação 0.7030. Identificação pela linha de dados/teste.csv.
+A reconstrução descreve o modelo. Valores reconstruídos podem ser fracionários ou ultrapassar faixas originais.
+A contribuição informa qual variável aumentou o erro. A causa real exige revisão contextual.
+
+Linha 98 | G1 9 | G2 0 | Faltas 0 | Estudo 2 a 5 h | Pontuação 2.2426 | Nota G2 abaixo da reconstrução, com 53.4% do erro total.
+Linha 99 | G1 7 | G2 0 | Faltas 0 | Estudo 2 a 5 h | Pontuação 1.9352 | Nota G2 abaixo da reconstrução, com 52.1% do erro total.
+Linha 35 | G1 13 | G2 14 | Faltas 13 | Estudo menos de 2 h | Pontuação 1.4998 | Faltas acima da reconstrução, com 54.1% do erro total.
+Linha 21 | G1 15 | G2 13 | Faltas 12 | Estudo menos de 2 h | Pontuação 1.4976 | Faltas acima da reconstrução, com 51.9% do erro total.
+Linha 86 | G1 9 | G2 9 | Faltas 16 | Estudo menos de 2 h | Pontuação 1.0574 | Faltas acima da reconstrução, com 55.6% do erro total.
+Linha 55 | G1 12 | G2 13 | Faltas 11 | Estudo menos de 2 h | Pontuação 0.9548 | Faltas acima da reconstrução, com 54.3% do erro total.
+Linha 27 | G1 13 | G2 12 | Faltas 15 | Estudo 2 a 5 h | Pontuação 0.9285 | Faltas acima da reconstrução, com 48.0% do erro total.
+Linha 66 | G1 12 | G2 10 | Faltas 11 | Estudo menos de 2 h | Pontuação 0.7718 | Faltas acima da reconstrução, com 45.0% do erro total.
+Linha 87 | G1 9 | G2 9 | Faltas 14 | Estudo menos de 2 h | Pontuação 0.7666 | Faltas acima da reconstrução, com 51.9% do erro total.

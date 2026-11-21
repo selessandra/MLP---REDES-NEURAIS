@@ -32,3 +32,11 @@ O teste obteve 87,76% de acurácia e F1 macro 0,773. A baseline da classe majori
 A adaptação usa um autoencoder 4 → 2 → 4 com G1, G2, faltas e faixa de estudo originais. Execute `node scripts/anomalias.mjs` para treinar e avaliar e `node scripts/verificar_anomalias.mjs` para conferir os cálculos. O protocolo está em documentacao/adaptacao_anomalias.txt. Os resultados e limites estão em resultados/anomalias/.
 
 A análise completa está em resultados/anomalias/analise.txt. O detector empatou com a baseline em dois cenários controlados e ficou abaixo dela no terceiro. Os registros originais não possuem anomalias confirmadas. A implementação local está disponível, e o notebook Colab permanece pendente.
+
+## Google Colab
+
+Abra https://colab.research.google.com/drive/1a6NlCa_BVn8nirYoUpJyn21ACXJiDNtM ou faça upload de notebooks/anomalias_academicas.ipynb. Selecione Executar tudo em um ambiente Python 3 com CPU. O notebook inclui os CSVs das quatro entradas originais e reutiliza o código JavaScript do detector via Node.js. Inclui treinamento, avaliação, gráfico das perdas e verificações numéricas. Os dados incorporados preservam as divisões locais.
+
+Execução conferida no Google Colab em 21/11/2026, com Node.js v22.23.4. Todas as células concluíram, incluindo gráfico e verificações. Foram reproduzidas 104 épocas, seleção da época 44 e os resultados locais. A versão local do notebook contém o código e os dados incorporados. As saídas da execução estão no notebook do Google Drive.
+
+Para detalhar os sinais, execute `python scripts/explicar_anomalias.py` após o treinamento. Os arquivos resultados/anomalias/anomalias_explicadas.json e anomalias_explicadas.txt mostram a linha do teste, entradas, pontuação, limite e contribuições por variável. A contribuição é a parcela do erro quadrático padronizado. A reconstrução e o sinal exigem interpretação contextual. O notebook também apresenta essa tabela.
