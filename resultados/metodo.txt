@@ -1,0 +1,13 @@
+Normalização e baseline
+
+Executar scripts/normalizar_baseline.ps1 após a limpeza e a divisão.
+As entradas numéricas usam z = (valor - média do treino) / desvio populacional do treino. Desvio zero usa divisor 1.
+Categorias usam one-hot, com categorias aprendidas no treino e uma coluna para valores desconhecidos.
+A saída situacao_regra_didatica permanece textual e deve ser separada das entradas no modelo.
+As constantes total_aulas_assumido e origem_campos_adicionados ficam fora dos vetores. A identificação dos dados simulados permanece nos nomes das colunas e nos arquivos de origem.
+G3 já foi removida na divisão porque determina o alvo.
+Os parâmetros estão em resultados/normalizacao.json.
+A baseline sempre prevê a classe mais frequente no treino. Empates são resolvidos pela ordem do nome da classe.
+As métricas incluem acurácia, F1 macro, precisão, recall e F1 por classe. Divisões por zero recebem 0.
+Os resultados de teste servem como referência final. Ajustes futuros do modelo devem usar a validação.
+A presença de campos simulados limita a interpretação dos resultados sobre estudantes reais.

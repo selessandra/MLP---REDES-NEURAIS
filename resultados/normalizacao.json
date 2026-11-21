@@ -1,0 +1,225 @@
+{
+  "school": {
+    "tipo": "categorico",
+    "categorias": [
+      "GP",
+      "MS"
+    ]
+  },
+  "sex": {
+    "tipo": "categorico",
+    "categorias": [
+      "F",
+      "M"
+    ]
+  },
+  "age": {
+    "media": 16.766519823788546,
+    "tipo": "numerico",
+    "desvio": 1.22676744860427
+  },
+  "address": {
+    "tipo": "categorico",
+    "categorias": [
+      "R",
+      "U"
+    ]
+  },
+  "famsize": {
+    "tipo": "categorico",
+    "categorias": [
+      "GT3",
+      "LE3"
+    ]
+  },
+  "Pstatus": {
+    "tipo": "categorico",
+    "categorias": [
+      "A",
+      "T"
+    ]
+  },
+  "Medu": {
+    "media": 2.539647577092511,
+    "tipo": "numerico",
+    "desvio": 1.1212665349139406
+  },
+  "Fedu": {
+    "media": 2.328193832599119,
+    "tipo": "numerico",
+    "desvio": 1.0886874437110605
+  },
+  "Mjob": {
+    "tipo": "categorico",
+    "categorias": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ]
+  },
+  "Fjob": {
+    "tipo": "categorico",
+    "categorias": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ]
+  },
+  "reason": {
+    "tipo": "categorico",
+    "categorias": [
+      "course",
+      "home",
+      "other",
+      "reputation"
+    ]
+  },
+  "guardian": {
+    "tipo": "categorico",
+    "categorias": [
+      "father",
+      "mother",
+      "other"
+    ]
+  },
+  "traveltime": {
+    "media": 1.539647577092511,
+    "tipo": "numerico",
+    "desvio": 0.7221882184961615
+  },
+  "studytime": {
+    "media": 1.922907488986784,
+    "tipo": "numerico",
+    "desvio": 0.8373202510959912
+  },
+  "failures": {
+    "media": 0.20704845814977973,
+    "tipo": "numerico",
+    "desvio": 0.5524025317856286
+  },
+  "schoolsup": {
+    "tipo": "categorico",
+    "categorias": [
+      "no",
+      "yes"
+    ]
+  },
+  "famsup": {
+    "tipo": "categorico",
+    "categorias": [
+      "no",
+      "yes"
+    ]
+  },
+  "paid": {
+    "tipo": "categorico",
+    "categorias": [
+      "no",
+      "yes"
+    ]
+  },
+  "activities": {
+    "tipo": "categorico",
+    "categorias": [
+      "no",
+      "yes"
+    ]
+  },
+  "nursery": {
+    "tipo": "categorico",
+    "categorias": [
+      "no",
+      "yes"
+    ]
+  },
+  "higher": {
+    "tipo": "categorico",
+    "categorias": [
+      "no",
+      "yes"
+    ]
+  },
+  "internet": {
+    "tipo": "categorico",
+    "categorias": [
+      "no",
+      "yes"
+    ]
+  },
+  "romantic": {
+    "tipo": "categorico",
+    "categorias": [
+      "no",
+      "yes"
+    ]
+  },
+  "famrel": {
+    "media": 3.9229074889867843,
+    "tipo": "numerico",
+    "desvio": 0.9780653407748212
+  },
+  "freetime": {
+    "media": 3.156387665198238,
+    "tipo": "numerico",
+    "desvio": 1.0451234311216862
+  },
+  "goout": {
+    "media": 3.193832599118943,
+    "tipo": "numerico",
+    "desvio": 1.1881784927220536
+  },
+  "Dalc": {
+    "media": 1.5418502202643172,
+    "tipo": "numerico",
+    "desvio": 0.958045971388067
+  },
+  "Walc": {
+    "media": 2.3237885462555066,
+    "tipo": "numerico",
+    "desvio": 1.308564707629639
+  },
+  "health": {
+    "media": 3.5066079295154187,
+    "tipo": "numerico",
+    "desvio": 1.450717714074076
+  },
+  "absences": {
+    "media": 3.702643171806167,
+    "tipo": "numerico",
+    "desvio": 4.84810168312736
+  },
+  "G1": {
+    "media": 11.389867841409691,
+    "tipo": "numerico",
+    "desvio": 2.7614373260825813
+  },
+  "G2": {
+    "media": 11.555066079295154,
+    "tipo": "numerico",
+    "desvio": 2.823798855019087
+  },
+  "frequencia_percentual_simulada": {
+    "media": 96.91438325991194,
+    "tipo": "numerico",
+    "desvio": 4.039888933275258
+  },
+  "nota_atividades_simulada": {
+    "media": 11.370044052863436,
+    "tipo": "numerico",
+    "desvio": 3.3085900077629797
+  },
+  "horas_estudo_semanais_simuladas": {
+    "media": 3.9332599118942744,
+    "tipo": "numerico",
+    "desvio": 3.4899881269537865
+  },
+  "participacao_aulas_simulada": {
+    "media": 5.748898678414097,
+    "tipo": "numerico",
+    "desvio": 1.429221815725086
+  }
+}

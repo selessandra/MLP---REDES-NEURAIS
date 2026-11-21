@@ -1,0 +1,10 @@
+Divisão dos dados
+
+Fonte usada: student-por_limpo.csv, com 649 registros.
+Proporções aproximadas: 70% treino, 15% validação e 15% teste.
+Sorteio estratificado por situacao_regra_didatica, com semente 42.
+O arredondamento é feito por classe. Cada registro é destinado a uma única parte.
+G3 foi excluída dos três arquivos porque determina diretamente o alvo.
+situacao_regra_didatica é a saída a prever e deve ser separada das entradas no treinamento.
+Normalização e outras transformações aprendidas devem ser ajustadas somente no treino.
+Os campos simulados e sua identificação foram mantidos. A divisão aleatória não confirma disponibilidade temporal das variáveis.

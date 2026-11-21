@@ -1,0 +1,92 @@
+[
+  {
+    "conjunto": "treino",
+    "registros": 454,
+    "classe_prevista": "aprovado",
+    "acuracia": 0.8458149779735683,
+    "f1_macro": 0.3054892601431981,
+    "por_classe": [
+      {
+        "classe": "aprovado",
+        "precisao": 0.8458149779735683,
+        "recall": 1,
+        "f1": 0.9164677804295943,
+        "suporte": 384
+      },
+      {
+        "classe": "recuperacao",
+        "precisao": 0,
+        "recall": 0,
+        "f1": 0,
+        "suporte": 56
+      },
+      {
+        "classe": "reprovado",
+        "precisao": 0,
+        "recall": 0,
+        "f1": 0,
+        "suporte": 14
+      }
+    ]
+  },
+  {
+    "conjunto": "validacao",
+    "registros": 97,
+    "classe_prevista": "aprovado",
+    "acuracia": 0.845360824742268,
+    "f1_macro": 0.30540037243947854,
+    "por_classe": [
+      {
+        "classe": "aprovado",
+        "precisao": 0.845360824742268,
+        "recall": 1,
+        "f1": 0.9162011173184357,
+        "suporte": 82
+      },
+      {
+        "classe": "recuperacao",
+        "precisao": 0,
+        "recall": 0,
+        "f1": 0,
+        "suporte": 12
+      },
+      {
+        "classe": "reprovado",
+        "precisao": 0,
+        "recall": 0,
+        "f1": 0,
+        "suporte": 3
+      }
+    ]
+  },
+  {
+    "conjunto": "teste",
+    "registros": 98,
+    "classe_prevista": "aprovado",
+    "acuracia": 0.8469387755102041,
+    "f1_macro": 0.30570902394106814,
+    "por_classe": [
+      {
+        "classe": "aprovado",
+        "precisao": 0.8469387755102041,
+        "recall": 1,
+        "f1": 0.9171270718232044,
+        "suporte": 83
+      },
+      {
+        "classe": "recuperacao",
+        "precisao": 0,
+        "recall": 0,
+        "f1": 0,
+        "suporte": 12
+      },
+      {
+        "classe": "reprovado",
+        "precisao": 0,
+        "recall": 0,
+        "f1": 0,
+        "suporte": 3
+      }
+    ]
+  }
+]
