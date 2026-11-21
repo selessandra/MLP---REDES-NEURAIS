@@ -97,7 +97,7 @@ Nos registros originais de teste, o autoencoder sinalizou **9 de 98 casos**, e a
 
 ## Retorno e demonstração
 
-O notebook reúne a execução do treinamento, o gráfico das perdas, a comparação com a baseline e uma tabela dos registros sinalizados. Essa sequência pode ser usada na demonstração do projeto.
+O notebook reúne a execução do treinamento, o gráfico das perdas, a comparação com a baseline e uma tabela dos registros sinalizados. A célula Analisar um novo aluno permite preencher G1, G2, faltas e faixa de estudo. Ao executar, retorna o sinal, a pontuação, o limite e as contribuições por variável, usando o modelo já treinado.
 
 Cada caso é identificado pela linha do CSV de teste e mostra notas, faltas, faixa de estudo, pontuação e principal contribuição para o sinal. Por exemplo, o registro da linha 98 apresenta `G1 = 9`, `G2 = 0` e nenhuma falta. A nota G2 responde por 53,4% do erro total de reconstrução.
 
@@ -164,4 +164,4 @@ O repositório também mantém os arquivos da etapa inicial de classificação a
 - O período de coleta das faltas exige confirmação antes de usar o detector como alerta antecipado.
 - As pontuações exigem revisão contextual. Uma aplicação institucional deve preservar a privacidade e evitar decisões automáticas sobre os estudantes.
 
-A continuidade do trabalho inclui avaliar novos exemplos e obter uma revisão independente dos casos sinalizados, permitindo medir a utilidade do detector em situações reais.
+A continuidade do trabalho inclui obter uma revisão independente dos casos sinalizados, permitindo medir a utilidade do detector em situações reais.
